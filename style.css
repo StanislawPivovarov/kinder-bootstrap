@@ -1,0 +1,309 @@
+@font-face {
+    font-family: 'Fregat';
+    src: local('Fregat'), url('/font/fregat.ttf') format('woff2'), url('/font/fregat.ttf') format('woff'), url('/font/fregat.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fregat';
+    src: local('Fregat Italic'), local('Fregat-Italic'), url('/font/fregatitalic.woff2') format('woff2'), url('/font/fregatitalic.woff') format('woff'), url('/font/fregatitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Fregat';
+    src: local('Fregat Bold'), local('Fregat-Bold'), url('/font/fregatbold.woff2') format('woff2'), url('/font/fregatbold.woff') format('woff'), url('/font/fregatbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+@import "./node_modules/bootstrap-4-grid/css/grid.css";
+    
+
+ .sky{
+     position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    opacity: 0.5;
+    z-index: 5;;
+}
+ .white-header{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    z-index: 5;;
+}
+ .houses{
+    position: absolute;
+    left: -3px;
+    top: -25px;
+    width: 100%;
+    z-index: 3;;
+} 
+
+ .container-xl{
+    top: 10px;
+    position: relative;
+    z-index: 7;
+}
+.logo{
+    position: relative;
+}
+.adress{
+    vertical-align:middle;
+    font-size: 18px;
+    position: absolute;
+    color: rgb(51, 51, 51);
+    font-family: "Fregat";
+    text-align:left;
+    top: 48px;
+}
+.space{
+    height: 100px;
+}
+
+.number{
+    font-size: 18px;
+    position: relative;
+    color: rgb(0, 93, 33);
+    font-family: "Fregat";
+    font-size: 30px;
+    font-weight: bold;
+    text-align:left;
+    top: 65px;
+}
+.request-call{
+    position: relative;
+    background-color: rgb(239, 124, 0);
+    border: none;
+    font-family: Fregat, serif;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 50px;
+    width: 215px;
+    height: 52px;
+    top: 58px;
+}
+
+.navbar-line{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    min-width: 600px;
+    max-width: 1200px;
+    margin-left: 300px;
+    margin-right: auto;
+    z-index: 6;
+}
+
+.container-fluid_nav{
+    position: a;
+    top: 30px;
+    height: 100px;
+    max-width: 1200px;
+}
+
+.woods{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: auto;
+    
+}
+
+.woodup-1{
+    position: relative;
+
+}
+.woods{
+    position: relative;
+    z-index: 100;
+}
+.form{
+    align-content: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    max-width: 1200px;
+    z-index: 6;
+    width: 100%;
+}
+.form-slogan{
+    
+    font-size: 36px;
+    color: #005d22;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family:Fregat, serif;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+}
+
+.form-name{
+    /* изменить шрифт paceholder */
+position: relative;
+z-index: 5;;
+border-style: solid;
+border-width: 1px;
+border-color: rgb(161, 208, 221);
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+box-shadow: inset 0px 5px 5px 0px rgba(3, 3, 3, 0.13);
+position: absolute;
+left: 350px;
+width: 200px;
+height: 48px;
+font-family: serif;
+}
+
+.form-name::placeholder{
+font-family: 'Lobster', cursive;
+font-size: 20px;
+}
+.form-phone::placeholder{
+font-family: 'Lobster', cursive;
+font-size: 20px;
+}
+.form-phone{
+    /* изменить шрифт placeholder */
+        position: relative;
+        z-index: 5;;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(161, 208, 221);
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: inset 0px 5px 5px 0px rgba(3, 3, 3, 0.13);
+        font-size: 20px;
+        font-family: "Fregat", serif;
+        width: 200px;
+        height: 48px;
+    }
+    
+    .form-button{
+        /* добавить hoover */
+        /* добавить эллипс */
+        background-color: rgb(239, 124, 0);
+        font-family: Fregat, serif;
+        border: none;
+        font-size: 19,96px;
+        font-weight: bold;
+        color: #ffffff;
+        border-radius: 50px;
+        position: relative;
+        width: 258px;
+        height: 64px;
+        z-index: 5;;
+        vertical-align: middle;
+        left: 38%;
+    }
+    .row-button{
+        top: 30px;
+    }
+
+.baby{
+    display: none;
+    position: relative;
+    bottom: auto;
+    left: 50%;
+    top: 130px
+}
+/* .blue-background{
+    top: 1000px;
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    background-color: #207d9f;
+} */
+.header{
+    height: 30%;
+}
+
+.slogan{
+    position: relative;
+    top: 100px;
+    height: auto;
+}
+
+
+.fields{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: auto;
+}
+.blue-background{
+    top: 1000px;
+    position: absolute;
+    width: 100%;
+    background-color: #207d9f;
+}
+.navigation-container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 2000px;
+    top: 75px;
+    position: relative;
+    }
+@media (min-width: 1920px){
+    .blue-background{
+        top: 3000px;
+    }
+
+    }
+.buttons{
+    position: relative;
+    z-index:100;
+}
+.main-button{
+    text-decoration: none;
+    color: #461402;
+    font-family: Fregat, serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+.about-button{
+    text-decoration: none;
+    color: #461402;
+    font-family: Fregat, serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+.schedule{
+    text-decoration: none;
+    color: #461402;
+    font-family: Fregat, serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+.why-we{
+    text-decoration: none;
+    color: #461402;
+    font-family: Fregat, serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+.contacts{
+    text-decoration: none;
+    color: #461402;
+    font-family: Fregat, serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.down-1{
+    position: relative;
+    top: 10px;
+}
