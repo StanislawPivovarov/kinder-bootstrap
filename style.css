@@ -698,6 +698,160 @@ font-size: 20px;
     z-index: 110;
     /* top: 100px; */
 }
+.license{
+    font-family: Fregat, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    position: relative;
+    top: -100px;
+    left: 100px;
+}
+.unique{
+    font-family: Fregat, serif;
+    font-size: 24px;
+    color: #1e6a3b;
+    font-weight: bold;
+    position: relative;
+    top: -220px;
+    left: 50px;
+}
+.forwho{
+    font-family: Fregat, serif;
+    font-size: 18px;
+    color: #1e6a3b;
+    position: relative;
+    top: -130px;
+    left: -250px;
+}
+.form-img{
+    position: relative;
+    top: -100px;
+}
+.hurry{
+    font-family: Fregat, serif;
+    font-size: 24px;
+    position: relative;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0;
+}
+.last{
+    font-family: Fregat, serif;
+    font-size: 30px;
+    position: relative;
+    font-weight: bold;
+    color: #eeca8d;  
+    margin: 5px;
+}
+.num{
+    font-family: Fregat, serif;
+    font-size: 30px;
+    position: relative;
+    font-weight: bold;
+    color: #461402;  
+    margin: 5px;
+    padding-left: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.places{
+    font-family: Fregat, serif;
+    font-size: 30px;
+    position: relative;
+    font-weight: bold;
+    color: #eeca8d;
+    margin: 5px;
+}
+.star{
+    position: absolute;
+    width: 100%;
+    top: -7px;
+
+    height:auto;
+}
+.background-groups{
+    position: relative;
+    padding-top: 200px;
+}
+.groups-bg{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 4740px;
+}
+.background-groups-name{
+    text-align: center;
+    font-family: Fregat, serif;
+    font-size: 36px;
+    font-weight: bold;
+    position: relative;
+    top: -80px;
+}
+.background-groups-name_bg{
+    position: absolute;
+    left: 400px;
+}
+.line1, .line2{
+    position: absolute;
+    padding-left: 200px;
+}
+.line1{
+    left: 100px;
+}
+.card{
+    position: relative;
+    width: 70%;
+    height: auto;
+}
+.card-cont{
+    position: relative;
+    top: 60px;
+}
+.deti{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 80px;
+    padding-left: 0;
+    padding-right:0 ;
+}
+.right-leaf, .left-leaf{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 150px;
+}
+.right-leaf{
+    right: 50px;
+    z-index: 0;
+}
+.left-leaf{
+    left: 50px;
+}
+.card-header{
+    font-family: Fregat, serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #005d22;
+    text-transform: uppercase;
+}
+.card-age{
+    font-family: Fregat, serif;
+    font-size: 18px;
+    color: #646363;
+    font-weight: bold;
+}
+.card-target, .card-hours, .card-exercices{
+    font-family: Fregat, serif;
+    font-size: 20px;
+    color: #646363;
+    font-weight: bold;
+}
+.tcolor{
+    color: #fd5024;
+}
 @media(width: 3840px){
     .blue-background{
         top: 2000px;
