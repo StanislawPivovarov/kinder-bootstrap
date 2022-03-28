@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./node_modules/bootstrap-4-grid/css/grid.css">
+    <link rel="stylesheet" href="/grid.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
@@ -17,29 +17,27 @@
 <body>
     <div class="background">
         <img class="houses" src="img/1/bg/Слой 135.png" alt="">
-        <img class="sky" src="img/1/bg/Слой 134.png" alt="">
-        <img class="white-header" src="img/1/bg/Слой 137.png" alt="">
+        <div class="white-header"></div>
+        
         <div class="blue-background"></div>
             
 
     </div>
     <!-- шапка с лого, адресом, номером и кнопкой -->
-    <div class="container-xl header">
-        <div class="row">
-            <div class="col-5"><img class="logo" src="/img/1/logo.png" alt=""></div>
-            <div class="col-4">
-                <p class="adress">г.Москва Ленинский пр-т, д. 114</p>
-                <p class="number">+7 (919) 10-200-10</p>
-            </div>
-            <div class="col-3">
-                <button class="request-call">Заказать звонок</button>
-            </div>
-        </div>            
+    <div class="navbar-wrap">
+        <div class="container header">
+                  <a href="#" class="logo-class"><img src="img/1/logo.png" alt="logo" class=""></a>
+                  <div class="navbar-wrap">
+                          <p class="adress">г. Москва, Ленинский пр-т, д. 114 <br>
+                        <span class="number">+7 (919) 10-200-10</span></p>
+                  </div>
+                  <button class="request-call">Заказать звонок</button>
+            
+        </div>
     </div>
+
     <!-- навинация -->
-    <div class="navigation-container">
-                <img class="navbar-line" src="./img/1/menu/line_1.png" alt="line_1">
-                <img class="navbar-line" src="./img/1/menu/line_2.png" alt="line_2">  
+    <div class="navigation-container">      
                 <div class="woods">
                     <img src="./img/1/menu/bg.png" alt="" class="down-1">
                     <img src="./img/1/menu/bg.png" alt="" class="up-1">
@@ -54,6 +52,9 @@
                     <li class="why-we">Почему мы</li>
                     <li class="contacts">Контакты</li> 
                 </ul>
+    </div>
+    <div class="lines">
+        <img class="navbar-line" src="./img/1/menu/line_1.png" alt="line_1">
     </div>
     <!-- слоган, форма -->
     <div class="container-xl slogan">
@@ -371,25 +372,25 @@
         <div class="container first-line">
             <div class="row">
                 <div class="col-2">
-                    <img src="img/1/menu/bg.png" alt="" class="">
+                    <img src="img/1/menu/bg.png" alt="" class="second-nav-down">
                 </div>
                 <div class="col-2">
-                    <img src="img/1/menu/bg.png" alt="" class="">
+                    <img src="img/1/menu/bg.png" alt="" class="second-nav-up">
                 </div>
                 <div class="col-2">
-                    <img src="img/1/menu/bg.png" alt="" class="">
+                    <img src="img/1/menu/bg.png" alt="" class="second-nav-down">
                 </div>
                 <div class="col-2">
-                    <img src="img/1/menu/bg.png" alt="" class="">
+                    <img src="img/1/menu/bg.png" alt="" class="second-nav-up">
                 </div>
                 <div class="col-2">
-                    <img src="img/1/menu/bg.png" alt="" class="">
+                    <img src="img/1/menu/bg.png" alt="" class="second-nav-down">
                 </div>
                 <div class="col-2">
-                    <img src="img/1/menu/bg.png" alt="" class="">
+                    <img src="img/1/menu/bg.png" alt="" class="second-nav-up">
                 </div>
             </div>
-            <div class="row">
+            <div class="row second-line">
                 <div class="col-3">
                     <img src="img/1/menu/bg.png" alt="" class="">
                 </div>
@@ -404,9 +405,12 @@
                 </div>
             </div>
         </div>
-        <img src="img/5/paper_2 копия.png" alt="" class="card">
+
         <div class="container card-cont">
                     <div class="row">
+                        <img src="img/5/paper_2 копия.png" alt="" class="card">
+                    </div>
+                    <div class="row card-filling">
                         <div class="col-5">
                             <p class="card-header">
                                 группы по уходу и <br>
@@ -437,18 +441,39 @@
                                 музыкальное и физкультурное. Прогулки.
                             </p>
                         </div>
-                        <div class="col-1">
+                        <div class="col-1 col-leaf">
                             <img src="img/5/left.png" alt="" class="left-leaf">
                         </div>
-                        <div class="col-5">
+                        <div class="col-5 col-kids">
                             <img src="img/5/deti.png" alt="" class="deti">
                         </div>
-                        <div class="col-1">
+                        <div class="col-1 col-;">
                             <img src="img/5/right.png" alt="" class="right-leaf">                    </div>
                         </div>
                 </div>
             </div>
-        </div>
-    </div>
+                <img src="img/6/bg.png" alt="" class="orange-bg">
+                <div class="block-6">
+                    <div class="container napravleniya">
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="napravleniya-header">
+                                    Направления:
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="napravleniya-gallery-back">
+                                    <div class="row">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    
+                </div>          
+            </div>
 </body>
 </html>

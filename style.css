@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Fregat';
     src: local('Fregat'), url('/font/fregat.ttf') format('woff2'), url('/font/fregat.ttf') format('woff'), url('/font/fregat.ttf') format('truetype');
@@ -53,9 +52,8 @@ body{
  .white-header{
     position: absolute;
     width: 100%;
-    top: 0px;
-    right: 0px;
-    z-index: 5;;
+    z-index: 5;
+    background-image: linear-gradient(#ffffff);
 }
  .houses{
     position: absolute;
@@ -64,23 +62,34 @@ body{
     width: 100%;
     z-index: 3;;
 } 
+.navbar-wrap{
+    display: flex;
+    flex-flow: row nowrap;
+}
 
- .container-xl{
+ .header{
     top: 10px;
     position: relative;
     z-index: 7;
+    height: inherit;
+}
+.num-addres{
+    position: relative;
+    vertical-align: middle;
 }
 .logo{
     position: relative;
+
 }
 .adress{
-    vertical-align:middle;
+    vertical-align: middle;
     font-size: 18px;
-    position: absolute;
+    position: relative;
     color: rgb(51, 51, 51);
     font-family: "Fregat";
     text-align:left;
-    top: 48px;
+    margin: 0;
+    margin-left: 350px;
 }
 .space{
     height: 100px;
@@ -94,7 +103,7 @@ body{
     font-size: 30px;
     font-weight: bold;
     text-align:left;
-    top: 65px;
+    margin: 0;
 }
 .request-call{
     position: relative;
@@ -106,18 +115,27 @@ body{
     border-radius: 50px;
     width: 215px;
     height: 52px;
-    top: 58px;
+    vertical-align: middle;
 }
 
 .navbar-line{
-    width: 100%;
+    width: 80%;
     height: auto;
-    position: absolute;
-    min-width: 600px;
-    max-width: 1200px;
-    margin-left: 300px;
-    margin-right: auto;
+    position: relative;
     z-index: 6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lines{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    top: 150px;
+
+
 }
 
 .container-fluid_nav{
@@ -129,7 +147,7 @@ body{
 
 .woods{
     display: inline-block;
-    padding: 10px;
+    padding-left: 70px;
     margin-left: 300px;
     margin-right: auto;
     
@@ -237,7 +255,10 @@ font-size: 20px;
 }
 
 .header{
-    height: 30%;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .slogan{
@@ -266,12 +287,14 @@ font-size: 20px;
     margin-left: auto;
     margin-right: auto;
     max-width: 2000px;
-    top: 75px;
     position: relative;
+    
     }
 .text{
     position: relative;
     z-index: 100;
+    padding-left: 105px;
+    padding-top: 10px;
 }
 .buttons{
     position: relative;
@@ -562,7 +585,6 @@ font-size: 20px;
     padding-top: 450px;
 }
 .windows{
-
     padding-top: 100px;
     position: relative;
     z-index: 102
@@ -787,7 +809,7 @@ font-size: 20px;
     font-size: 36px;
     font-weight: bold;
     position: relative;
-    top: -80px;
+    top: -20px;
 }
 .background-groups-name_bg{
     position: absolute;
@@ -802,12 +824,12 @@ font-size: 20px;
 }
 .card{
     position: relative;
-    width: 70%;
+    width: 100%;
     height: auto;
 }
 .card-cont{
     position: relative;
-    top: 60px;
+    top: 50px;
 }
 .deti{
     position: relative;
@@ -827,9 +849,6 @@ font-size: 20px;
     right: 50px;
     z-index: 0;
 }
-.left-leaf{
-    left: 50px;
-}
 .card-header{
     font-family: Fregat, serif;
     font-weight: bold;
@@ -844,6 +863,18 @@ font-size: 20px;
     color: #646363;
     font-weight: bold;
 }
+.second-nav-down{
+    position: relative;
+    top: 50px;
+}
+.second-line{
+    position: relative;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.second-nav-up{
+    position: relative;
+}
 .card-target, .card-hours, .card-exercices{
     font-family: Fregat, serif;
     font-size: 20px;
@@ -852,6 +883,31 @@ font-size: 20px;
 }
 .tcolor{
     color: #fd5024;
+}
+.card-filling{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+.orange-bg{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.napravleniya-header{
+    position: relative;
+    font-family: Fregat, serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #ffffff;
+    z-index: 100;
+    text-align: center;
+    padding-top: 150px;
+}
+.napravleniya-gallery-back{
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
 }
 @media(width: 3840px){
     .blue-background{
@@ -862,5 +918,82 @@ font-size: 20px;
         position: relative;
         width: 100%;
         top: 2500px;
+    }
+    .slogan{
+        top: 700px;
+
+    }
+    .triangle-left{
+        top: 2750px;
+        height: 1300px;
+    }
+    .triangle-right{
+        top: 2450px;
+        height: 1556px;
+    }
+    .fields{
+        top: 1500px;
+    }
+    .green-bg{
+        top: 4000px;
+    }
+    .circle-hills-1{
+        top: 3100px;
+        left: 1500px;
+    }
+    .cirlce-hills-2{
+        top: 3200px;
+        left: 1000px;
+    }
+    .second-block{
+        position: relative;
+        top: -1450px;
+    }
+    .lichinka{
+        
+        top: 1000px;
+    }
+    .container-house{
+        top: -1200px;
+    }
+    .house{
+        top: 3500px;
+        clip-path: inset(0 0 20% 0);
+    }
+    .podval{
+        display: none;
+    }
+    .windows{
+        top: -1100px;
+    }
+    .dark-green-bg{
+        top: -815px;
+    }
+    .groups-bg{
+        top: 6297px;
+    }
+    .background-groups{
+        top: -800px;
+    }
+    .dark-green-circle-1{
+        top: 5500px;
+    }
+    .dark-green-circle-2{
+        top: 5526px;
+    }
+    .dark-green-circle-3{
+        top: 5553px;
+    }
+    .dark-green-circle-4{
+        top: 5574px;
+    }
+    .dark-green-circle-5{
+        top: 5891px;
+    }
+    .dark-green-circle-6{
+        top: 5876px;
+    }
+    .dark-green-circle-7{
+        top: 5853px;
     }
 }

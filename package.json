@@ -1,0 +1,23 @@
+{
+  "name": "kindergarden-bootstrap",
+  "version": "1.0.0",
+  "description": "На 21.03 Имею:\r <ul>\r <li>Верстка с использованием сетки бутстрап</li>\r <li>Научился конфигурировать контейнеры</li>\r <li>Прописаны брекпоинты только для 1 блока</li>\r <li>Почти все элементы прописаны с использованием контейнеров</li>\r </ul>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StanislawPivovarov/kinder-bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StanislawPivovarov/kinder-bootstrap/issues"
+  },
+  "homepage": "https://github.com/StanislawPivovarov/kinder-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "bootstrap-4-grid": "^3.4.0"
+  }
+}
