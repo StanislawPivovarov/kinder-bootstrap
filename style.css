@@ -385,6 +385,7 @@ font-size: 20px;
 
 }
 .about{
+<<<<<<< HEAD
 
 }
 .schedule{
@@ -395,6 +396,25 @@ font-size: 20px;
 }
 .contacts{
 
+=======
+    position: relative;
+    top: -120px;
+    left: 9.6%;
+}
+.schedule{
+    position: relative;
+    left: 6.5%;
+}
+.why-we{
+    position: relative;
+    left: 4.7%;
+    top: -130px;
+}
+.contacts{
+    position: relative;
+    left: 5%;
+    top: -90px;
+>>>>>>> bc75538862b46f8fb18f927c34f9476d48381ab9
 }
 
 .about-deti{
