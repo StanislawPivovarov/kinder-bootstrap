@@ -227,13 +227,13 @@ font-size: 20px;
         height: 48px;
     }
     
-    .form-button{
+    .form-button-second{
         /* добавить hoover */
         /* добавить эллипс */
-        background-color: rgb(239, 124, 0);
+        background-color: #005d22;
         font-family: Fregat, serif;
         border: none;
-        font-size: 19,96px;
+        font-size: 20px;
         font-weight: bold;
         color: #ffffff;
         border-radius: 50px;
@@ -242,11 +242,27 @@ font-size: 20px;
         height: 64px;
         z-index: 5;;
         vertical-align: middle;
-        left: 38%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        top: 20px;
     }
-    .row-button{
-        position: relative;
+    .form-button{
         top: 30px;
+        position: relative;
+        background-color: rgb(239, 124, 0);
+        border: none;
+        font-family: Fregat, serif;
+        font-size: 18px;
+        color: #ffffff;
+        border-radius: 50px;
+        width: 215px;
+        height: 52px;
+        vertical-align: middle;
+        z-index: 100;
+        display: block;
+        margin-left: auto;
+        margin-right:  auto;
     }
 
 .baby{
@@ -567,7 +583,8 @@ font-size: 20px;
     z-index: 90;
     width: 90%;
     height: auto;
-    left: 5%;
+    display: block;
+    margin-left: 5%;
 }
 .podval{
     padding-top: 450px;
@@ -789,7 +806,7 @@ font-size: 20px;
     position: absolute;
     width: 100%;
     height: auto;
-    top: 4740px;
+    top: 4684px;
 }
 .background-groups-name{
     text-align: center;
@@ -803,13 +820,27 @@ font-size: 20px;
     position: absolute;
     left: 400px;
 }
-.line1, .line2{
-    position: absolute;
-    padding-left: 200px;
-}
 .line1{
-    left: 100px;
+    width: 80%;
+    height: auto;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+.second-woods{
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    left: 15%;
+    top: 315px;
+}
+.second-nav-high{
+    position: relative;
+    top: -30px;
+}
+
 .card{
     position: relative;
     width: 100%;
@@ -851,14 +882,14 @@ font-size: 20px;
     color: #646363;
     font-weight: bold;
 }
-.second-nav-down{
-    position: relative;
-    top: 50px;
-}
 .second-line{
     position: relative;
-    padding-top: 100px;
+    padding-top: 30px;
     padding-left: 20px;
+}
+.third-low{
+    position: relative;
+    padding-top: 50px;
 }
 .second-nav-up{
     position: relative;
@@ -881,6 +912,7 @@ font-size: 20px;
     position: absolute;
     width: 100%;
     height: auto;
+    top: 5617px;
 }
 .napravleniya-header{
     position: relative;
@@ -896,7 +928,159 @@ font-size: 20px;
     height: 200px;
     background-color: #ffffff;
     border-radius: 10px;
+    width: 100%;
 }
+.napravleniya-gallery-int, .napravleniya-gallery-hand, .napravleniya-gallery-music, .napravleniya-gallery-dance, .napravleniya-gallery-sand, .napravleniya-gallery-theater, .napravleniya-gallery-sport{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    left: 15px;
+    margin-right: auto;
+    margin-top: 24px;
+    height: 75%;
+}
+.desc-images p{
+    position: relative;
+    display: inline-block;
+    margin-left: 55px;
+    font-family: Fregat, serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    left: -33px;
+    top: -83px;
+}
+.slogan-second{
+    position: relative;
+    color: #ffffff;
+    font-family: Fregat, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 0;
+}
+
+.arrow{
+    position: absolute;
+    left: 730px;
+    top: 48px;
+}
+
+
+
+
+
+
+.block-7{
+    padding-top: 100px;
+    position: relative;
+}
+.yellowbg{
+    width: 100%;
+    position: absolute;
+    height: 832px;
+    background: #ffaf24;
+}
+.stairs{
+    position: absolute;
+    z-index: 100;
+    top: -145px;
+    padding-left: 150px;
+}
+.about-center{
+    position: relative;
+    left: 250px;
+    padding-top: 300px;
+}
+.about-paragraph{
+    position: relative;
+    font-family: Fregat, serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+}
+.about-fireplace, .about-human, .about-security, .about-book, .about-license, .about-sand{
+    position: relative;
+    font-family: Fregat, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    left: -50px;
+    display: block;
+    padding-top: 20px;
+}
+.background-8{
+    position: absolute;
+    top: 932px;
+}
+.advantages{
+    position: relative;
+
+    padding-top: 900px;
+}
+.check{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+.music-sport-p{
+    display: inline-block;
+    padding-top: 20px;
+    margin: 0;
+    font-size: 20px;
+    font-family: Fregat, serif;
+    font-weight: bold;
+}
+.equipment, .comfort{
+    font-family: Lobster, serif;
+    font-size: 30px;
+    color: #005d22;
+    margin-bottom: 10px;
+}
+.clouds-bg{
+    position: absolute;
+    top: 7775px;
+}
+.recommendation{
+    padding-top: 50px;
+}
+.friends-recom{
+    text-align: center;
+    font-family: Fregat, serif;
+    color: #005d22;
+    font-size: 36px;
+    font-weight: bold;
+}
+.plank-name{
+    text-align: center;
+    font-family: Lobster, serif;
+    font-size: 30px;
+    color: #000000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.plank-text{
+    text-align: center;
+    font-family: Fregat, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.trophy, .parasailing, .diploma, .bookshelf, .projector, .paperplane{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 @media(width: 3840px){
     .blue-background{
         top: 2000px;
