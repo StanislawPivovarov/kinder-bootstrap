@@ -58,8 +58,6 @@ body{
 }
  .houses{
     position: absolute;
-    left: -3px;
-    top: -25px;
     width: 100%;
     z-index: 3;;
 } 
@@ -80,7 +78,6 @@ body{
 }
 .logo{
     position: relative;
-
 }
 .adress{
     vertical-align: middle;
@@ -92,10 +89,6 @@ body{
     margin: 0;
     margin-left: 350px;
 }
-.space{
-    height: 100px;
-}
-
 .number{
     font-size: 18px;
     position: relative;
@@ -135,21 +128,11 @@ body{
     margin-right: auto;
     width: 100%;
     top: 150px;
-
-
-}
-
-.container-fluid_nav{
-    position: a;
-    top: 30px;
-    height: 100px;
-    max-width: 1200px;
 }
 
 .woods{
     display: inline-block;
-    padding-left: 25px;
-    margin-left: 300px;
+    margin-left: 317px;
     margin-right: auto;
     position: relative;
     z-index: 100;
@@ -157,15 +140,12 @@ body{
 .woods img{
     display: inline-block;
     position: relative;
-
 }
 
 .woodup-1{
     position: relative;
-
 }
 .form{
-    align-content: center;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -175,7 +155,6 @@ body{
     width: 100%;
 }
 .form-slogan{
-    
     font-size: 36px;
     color: #005d22;
     font-weight: bold;
@@ -187,7 +166,6 @@ body{
 }
 
 .form-name{
-    /* изменить шрифт paceholder */
 position: relative;
 z-index: 5;;
 border-style: solid;
@@ -203,16 +181,11 @@ height: 48px;
 font-family: serif;
 }
 
-.form-name::placeholder{
-font-family: 'Lobster', cursive;
-font-size: 20px;
-}
-.form-phone::placeholder{
+.form-name::placeholder, .form-phone::placeholder{
 font-family: 'Lobster', cursive;
 font-size: 20px;
 }
 .form-phone{
-    /* изменить шрифт placeholder */
         position: relative;
         z-index: 5;;
         border-style: solid;
@@ -228,7 +201,7 @@ font-size: 20px;
     }
     
     .form-button-second{
-        /* добавить hoover */
+        /* добавить hover */
         /* добавить эллипс */
         background-color: #005d22;
         font-family: Fregat, serif;
@@ -240,15 +213,16 @@ font-size: 20px;
         position: relative;
         width: 258px;
         height: 64px;
-        z-index: 5;;
-        vertical-align: middle;
+        z-index: 5;
         display: block;
         margin-left: auto;
         margin-right: auto;
         top: 20px;
     }
+    .row-button{
+        padding-top: 30px;
+    }
     .form-button{
-        top: 30px;
         position: relative;
         background-color: rgb(239, 124, 0);
         border: none;
@@ -258,7 +232,6 @@ font-size: 20px;
         border-radius: 50px;
         width: 215px;
         height: 52px;
-        vertical-align: middle;
         z-index: 100;
         display: block;
         margin-left: auto;
@@ -270,7 +243,7 @@ font-size: 20px;
     position: relative;
     bottom: auto;
     left: 50%;
-    top: 130px
+    padding-top: 130px
 }
 
 .header{
@@ -282,10 +255,9 @@ font-size: 20px;
 
 .slogan{
     position: relative;
-    top: 100px;
+    padding-top: 100px;
     height: auto;
 }
-
 
 .fields{
     position: absolute;
@@ -295,7 +267,7 @@ font-size: 20px;
     height: auto;
 }
 .blue-background{
-    top: 1090px;
+    top: 1024px;
     height: 1100px;
     position: absolute;
     width: 100%;
@@ -314,7 +286,7 @@ font-size: 20px;
     z-index: 100;
     padding-left: 136px;
     padding-top: 24px;
-    left: 284px;
+    left: 272px;
     display: inline-block;
     text-align: center;
 }
@@ -409,7 +381,7 @@ font-size: 20px;
 }
 .lichinka{
     position: relative;
-    height: 523px;
+    height: 423px;
 }
 .kids-slogan{
     position: relative;
@@ -422,6 +394,9 @@ font-size: 20px;
 }
 .second-block p{
     margin: 0;
+}
+.second-block{
+    padding-top: 170px;
 }
 
 .one, .two, .three, .four, .five, .six {
@@ -438,9 +413,6 @@ font-size: 20px;
 .rows{
     position: relative;
     padding-top: 100px;
-}
-.kids-slogan{
-    padding-top: 90px;
 }
 .description{
     font-size: 22px;
@@ -492,8 +464,8 @@ font-size: 20px;
     background: #80c347;
     z-index: 0;
     position: absolute;
-    left: -80px;
-    top: 787px;
+    left: -90px;
+    top: 660px;
 }
 .right-circle{
     display: none;
@@ -634,106 +606,42 @@ font-size: 20px;
 }
 .dark-green-bg{
     position: relative;
-    background-color: #009736 ;
     z-index: 91;
     height: 700px;
     width: 100%;
     top: 156px;
 }
-.dark-green-circle-1{
-    top: 3924px;
+.green-bg-circles{
+    top: 3878px;
+    width: 100%;
+    height: auto;
     position: absolute;
-    background-color: #009736 ;
-    height: 500px;
-    width: 500px;
-    z-index: 100;
-    border-radius: 100%;
-    left: -40px;
     z-index: 90;
+
 }
-.dark-green-circle-2{
-    top: 3950px;
-    position: absolute;
-    background-color: #009736 ;
-    height: 500px;
-    width: 500px;
-    z-index: 100;
-    border-radius: 100%;
-    left: 350px;
-    z-index: 90;
-}
-.dark-green-circle-3{
-    top: 3977px;
-    position: absolute;
-    background-color: #009736 ;
-    height: 500px;
-    width: 500px;
-    z-index: 100;
-    border-radius: 100%;
-    left: 700px;
-    z-index: 90;
-}
-.dark-green-circle-4{
-    top: 3998px;
-    position: absolute;
-    background-color: #009736 ;
-    height: 500px;
-    width: 500px;
-    z-index: 100;
-    border-radius: 100%;
-    left: 1030px;
-    z-index: 90;
-}
-.dark-green-circle-5{
-    display: none;
-    top: 4315px;
-    position: absolute;
-    background-color: #009736 ;
-    height: 500px;
-    width: 500px;
-    z-index: 100;
-    border-radius: 100%;
-    right: -84px; 
-    z-index: 90;
-}
-.dark-green-circle-6{
-    top: 4300px;
-    position: absolute;
-    background-color: #009736 ;
-    height: 500px;
-    width: 500px;
-    z-index: 100;
-    border-radius: 100%;
-    right: 187px; 
-    z-index: 90;
-}
-.dark-green-circle-7{
-    top: 4277px;
-    position: absolute;
-    background-color: #009736 ;
-    height: 500px;
-    width: 500px;
-    z-index: 100;
-    border-radius: 100%;
-    right: 430px; 
-    z-index: 90;
-}
+
 .block-4{
     margin-left: 145px;
     position: relative;
+    padding-top: -10px;
     height: 100%;
     width: 85%;
     z-index: 110;
-    /* top: 100px; */
+    top: -104px;
 }
 .license{
     font-family: Fregat, serif;
     font-size: 24px;
     font-weight: bold;
     color: #ffffff;
-    position: relative;
-    top: -100px;
+    position: absolute;
+    top: 15px;
     left: 100px;
+}
+.dog{
+    position: absolute;
+    left: -300px;
+    top: -100px;
 }
 .unique{
     font-family: Fregat, serif;
@@ -749,12 +657,46 @@ font-size: 20px;
     font-size: 18px;
     color: #1e6a3b;
     position: relative;
-    top: -130px;
-    left: -250px;
 }
 .form-img{
-    position: relative;
+    position: absolute;
     top: -100px;
+}
+.form-name-img{
+    top: 170px;
+    position: absolute;
+    z-index: 5;;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 5px 5px 0px rgba(3, 3, 3, 0.13);
+    font-size: 20px;
+    font-family: "Fregat", serif;
+    width: 200px;
+    height: 48px;
+    left: 100px;
+}
+.form-phone-img{
+    top: 170px;
+    position: absolute;
+    z-index: 5;;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 5px 5px 0px rgba(3, 3, 3, 0.13);
+    font-size: 20px;
+    font-family: "Fregat", serif;
+    width: 200px;
+    height: 48px;
+    left: 45px;
+}
+.desc-form{
+    padding-top: 418px;
+    padding-left: 98px;
 }
 .hurry{
     font-family: Fregat, serif;
@@ -800,13 +742,13 @@ font-size: 20px;
 }
 .background-groups{
     position: relative;
-    padding-top: 200px;
+    top: -10px;
 }
 .groups-bg{
     position: absolute;
     width: 100%;
     height: auto;
-    top: 4684px;
+    top: 4536px;
 }
 .background-groups-name{
     text-align: center;
@@ -818,7 +760,11 @@ font-size: 20px;
 }
 .background-groups-name_bg{
     position: absolute;
-    left: 400px;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 10px;
 }
 .line1{
     width: 80%;
@@ -832,9 +778,9 @@ font-size: 20px;
     position: absolute;
     display: block;
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
     left: 15%;
-    top: 315px;
+    top: 118px;
 }
 .second-nav-high{
     position: relative;
@@ -848,7 +794,7 @@ font-size: 20px;
 }
 .card-cont{
     position: relative;
-    top: 50px;
+    top: 20px;
 }
 .deti{
     position: relative;
@@ -894,6 +840,24 @@ font-size: 20px;
 .second-nav-up{
     position: relative;
 }
+.logoped, .playzone, .bdays, .workshops{
+    position: absolute;
+    text-align: center;
+    z-index: 1000;
+    color: #461402;
+    font-family: Fregat, serif;
+    font-weight: bold;
+    font-size: 22px;
+    left: 80px;
+}
+.logoped, .workshops{
+    position: absolute;
+    top: 10px;
+}
+.playzone, .bdays{
+    position: absolute;
+    top: 48px;
+}
 .card-target, .card-hours, .card-exercices{
     font-family: Fregat, serif;
     font-size: 20px;
@@ -912,7 +876,30 @@ font-size: 20px;
     position: absolute;
     width: 100%;
     height: auto;
-    top: 5617px;
+    top: 5460px;
+}
+.napravleniya{
+    position: relative;
+    z-index: 1000;
+    padding-top: 50px;
+}
+.group-name{
+    list-style-type: none;
+    position: relative;
+    left: -100px;
+    top: -76px;
+}
+.group-name li{
+    padding-left: 156px;
+    font-family: Fregat, serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #461402;
+    display: inline-block;
+}
+.preschool, .detsad{
+    position: relative;
+    top: -34px;
 }
 .napravleniya-header{
     position: relative;
@@ -922,7 +909,7 @@ font-size: 20px;
     color: #ffffff;
     z-index: 100;
     text-align: center;
-    padding-top: 150px;
+    padding-top:0;
 }
 .napravleniya-gallery-back{
     height: 200px;
@@ -981,6 +968,7 @@ font-size: 20px;
     position: relative;
 }
 .yellowbg{
+    top: 85px;
     width: 100%;
     position: absolute;
     height: 832px;
@@ -1016,8 +1004,10 @@ font-size: 20px;
     padding-top: 20px;
 }
 .background-8{
+    width: 100%;
+    height: auto;
     position: absolute;
-    top: 932px;
+    top: 916px;
 }
 .advantages{
     position: relative;
@@ -1046,7 +1036,9 @@ font-size: 20px;
 }
 .clouds-bg{
     position: absolute;
-    top: 7775px;
+    top: 7605px;
+    width: 100%;
+    height: auto;
 }
 .recommendation{
     padding-top: 50px;
@@ -1079,13 +1071,278 @@ font-size: 20px;
     margin-left: auto;
     margin-right: auto;
 }
+.cat-9{
+    width: 60%;
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 100;
+}
+.bg-10{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 9452px;
+}
+.txt-bg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.collective{
+    text-align: center;
+    font-family: Fregat, serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #005d22;
+    text-transform: uppercase;
+    position: relative;
+    top: -78px;
+}
+.right, .left{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 70px;
+}
+.woman{
+    padding-left: 50px;
+}
+.right{
+    padding-left: 50px;
+}
+.block-10-img{
+    position: relative;
+    top: -65px;
+}
+.bg-11{
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+.gallery-collage{
+    position: absolute;
+    top: -300px;
+    padding-left: 136px;
+}
+.player{
+    position: relative;
+    z-index: 1000;
+}
+.gallery{
+    text-align: center;
+    font-family: Fregat, serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.gallery-bg{
+    background-color: #afcb1f;
+    width: 15%;
+    height: inherit;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-12{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 10795px;
+}
+.block-12{
+    padding-top: 600px;
+    position: relative;
+    left: -50px;
+}
+.form-12{
+    width: 100%;
+    height: 350px;
+    background: #36aee0;
+    border-radius: 20px;
+}
+.article-12{
+    position: relative;
+    padding-top: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    font-family: Fregat, serif;
+    font-weight: bold;
+    margin: 20px;
+}
+.name-12{
+    position: relative;
+        z-index: 5;;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(161, 208, 221);
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: inset 0px 5px 5px 0px rgba(3, 3, 3, 0.13);
+        font-size: 20px;
+        font-family: "Fregat", serif;
+        width: 250px;
+        height: 48px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+.name-12::placeholder{
+    font-family: Lobster, serif;
+    padding-left: 20px;
+    font-size: 20px;
+    
+}
+.mobile-12{
+    position: relative;
+        z-index: 5;;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(161, 208, 221);
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: inset 0px 5px 5px 0px rgba(3, 3, 3, 0.13);
+        font-size: 20px;
+        font-family: "Fregat", serif;
+        width: 250px;
+        height: 48px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+.mobile-12::placeholder{
+    font-family: Lobster, serif;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.call-12{
+    position: relative;
+    color: #ffffff;
+    background-color:rgb(239, 124, 0);
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Fregat, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.blue-separator{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 11460px;
+}
+.our-adress{
+    position: relative;
+    padding-top: 75px;
+    text-align: center;
+    font-family: Fregat, serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.map{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 11566px;
+}
+.pointer{
+    position: absolute;
+    z-index: 100;
+    padding-left: 760px;
+    padding-top: 297px;
+}
+.map-pointer{
+    padding-top: 125px;
+}
+.adress-header{
+    text-align: center;
+    font-family: Lobster, serif;
+    padding-top: 25px;
+    font-size: 24px;
+}
+.adress-white{
+    position: relative;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    z-index: 100;
+}
+.adress-adress{
+    text-align: center;
+    font-family: Fregat, serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.bg-14{
+    top: 12102px;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background-color: #f1debc;
+}
+.footer-cont{
+    padding-top:50px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logotype-footer{
+    position: relative;
+    vertical-align: middle;
+}
+.questions{
+    font-size: 18px;
+    color: #333333;
+    font-family: Fregat, serif;
+    font-weight: bold;
+    margin-left: 340px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.number-footer{
+    color: #005d22;
+    font-size: 40px;
+    font-family: Fregat, serif;
+    font-weight: bold;
 
-
+}
+.footer-wrap{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.footer-btn{
+    position: relative;
+    background-color: rgb(239, 124, 0);
+    border: none;
+    font-family: Fregat, serif;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 50px;
+    width: 215px;
+    height: 52px;
+    vertical-align: middle;
+    margin-left: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 @media(width: 3840px){
     .blue-background{
         top: 2000px;
         height: 2500px;
-}
+    }
     .fields{
         position: relative;
         width: 100%;

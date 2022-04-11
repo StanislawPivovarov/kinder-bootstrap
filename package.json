@@ -6,11 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/StanislawPivovarov/kinder-bootstrap.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/StanislawPivovarov/kinder-bootstrap.git",
+  "author": "Stanislaw Pivovarov <photovarov@bk.ru>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/StanislawPivovarov/kinder-bootstrap/issues"
