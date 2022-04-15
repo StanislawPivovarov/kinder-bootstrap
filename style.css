@@ -37,6 +37,7 @@
 
 body{
     margin: 0;
+    height: 100%;
 }
 
 @import "./node_modules/bootstrap-4-grid/css/grid.css";
@@ -109,6 +110,7 @@ body{
     border-radius: 50px;
     width: 215px;
     height: 52px;
+    cursor: pointer;
     vertical-align: middle;
 }
 
@@ -167,8 +169,10 @@ body{
 
 .form-name{
 position: relative;
-z-index: 5;;
+z-index: 5;
 border-style: solid;
+font-family: Lobster, serif;
+font-size: 20px;
 border-width: 1px;
 border-color: rgb(161, 208, 221);
 border-radius: 10px;
@@ -178,7 +182,6 @@ position: absolute;
 left: 350px;
 width: 200px;
 height: 48px;
-font-family: serif;
 }
 
 .form-name::placeholder, .form-phone::placeholder{
@@ -195,7 +198,7 @@ font-size: 20px;
         background-color: rgb(255, 255, 255);
         box-shadow: inset 0px 5px 5px 0px rgba(3, 3, 3, 0.13);
         font-size: 20px;
-        font-family: "Fregat", serif;
+        font-family: "Lobster", serif;
         width: 200px;
         height: 48px;
     }
@@ -203,6 +206,7 @@ font-size: 20px;
     .form-button-second{
         /* добавить hover */
         /* добавить эллипс */
+        cursor: pointer;
         background-color: #005d22;
         font-family: Fregat, serif;
         border: none;
@@ -223,6 +227,7 @@ font-size: 20px;
         padding-top: 30px;
     }
     .form-button{
+        cursor: pointer;
         position: relative;
         background-color: rgb(239, 124, 0);
         border: none;
@@ -673,7 +678,7 @@ font-size: 20px;
     background-color: rgb(255, 255, 255);
     box-shadow: inset 0px 5px 5px 0px rgba(3, 3, 3, 0.13);
     font-size: 20px;
-    font-family: "Fregat", serif;
+    font-family: "Lobster", serif;
     width: 200px;
     height: 48px;
     left: 100px;
@@ -689,12 +694,13 @@ font-size: 20px;
     background-color: rgb(255, 255, 255);
     box-shadow: inset 0px 5px 5px 0px rgba(3, 3, 3, 0.13);
     font-size: 20px;
-    font-family: "Fregat", serif;
+    font-family: "Lobster", serif;
     width: 200px;
     height: 48px;
     left: 45px;
 }
 .form-button-img{
+    cursor: pointer;
     position: absolute;
     top: 250px;
     margin-left: 107px;
@@ -847,6 +853,10 @@ font-size: 20px;
     padding-top: 30px;
     padding-left: 20px;
 }
+.second-line a{
+    text-decoration: none;
+    color: #461402;
+}
 .third-low{
     position: relative;
     padding-top: 50px;
@@ -951,6 +961,10 @@ font-size: 20px;
     left: -33px;
     top: -83px;
 }
+.desc-images a{
+    text-decoration: none;
+    color: #ffffff;
+}
 .slogan-second{
     position: relative;
     color: #ffffff;
@@ -1015,7 +1029,7 @@ font-size: 20px;
     color: #ffffff;
     left: -50px;
     display: block;
-    padding-top: 20px;
+    padding-topд: 20px;
 }
 .background-8{
     width: 100%;
@@ -1142,6 +1156,8 @@ font-size: 20px;
 .player{
     position: relative;
     z-index: 1000;
+    height: 308px;
+    width: 493px;
 }
 .gallery{
     text-align: center;
@@ -1176,6 +1192,9 @@ font-size: 20px;
     background: #36aee0;
     border-radius: 20px;
 }
+.form-12{
+
+}
 .article-12{
     position: relative;
     padding-top: 20px;
@@ -1196,7 +1215,7 @@ font-size: 20px;
         background-color: rgb(255, 255, 255);
         box-shadow: inset 0px 5px 5px 0px rgba(3, 3, 3, 0.13);
         font-size: 20px;
-        font-family: "Fregat", serif;
+        font-family: "Lobster", serif;
         width: 250px;
         height: 48px;
         display: block;
@@ -1219,7 +1238,7 @@ font-size: 20px;
         background-color: rgb(255, 255, 255);
         box-shadow: inset 0px 5px 5px 0px rgba(3, 3, 3, 0.13);
         font-size: 20px;
-        font-family: "Fregat", serif;
+        font-family: "Lobster", serif;
         width: 250px;
         height: 48px;
         display: block;
@@ -1232,6 +1251,7 @@ font-size: 20px;
     font-size: 20px;
 }
 .call-12{
+    cursor: pointer;
     position: relative;
     color: #ffffff;
     background-color:rgb(239, 124, 0);
@@ -1262,9 +1282,9 @@ font-size: 20px;
     color: #ffffff;
     text-transform: uppercase;
 }
-.map{
+#map{
     width: 100%;
-    height: auto;
+    height: 537px;
     position: absolute;
     top: 11566px;
 }
@@ -1338,6 +1358,7 @@ font-size: 20px;
     flex-flow: row nowrap;
 }
 .footer-btn{
+    cursor: pointer;
     position: relative;
     background-color: rgb(239, 124, 0);
     border: none;
@@ -1352,6 +1373,21 @@ font-size: 20px;
     margin-top: auto;
     margin-bottom: auto;
 }
+
+input{
+    padding-left: 50px;
+    font-family: Lobster, serif;
+    font-size: 20px;
+}
+.group-name a{
+    text-decoration: none;
+    color: #461402;
+    cursor: pointer;
+}
+.preschool a, .detsad a{
+    cursor: pointer;
+}
+
 @media(width: 3840px){
     .blue-background{
         top: 2000px;
@@ -1417,27 +1453,6 @@ font-size: 20px;
     }
     .background-groups{
         top: -800px;
-    }
-    .dark-green-circle-1{
-        top: 5500px;
-    }
-    .dark-green-circle-2{
-        top: 5526px;
-    }
-    .dark-green-circle-3{
-        top: 5553px;
-    }
-    .dark-green-circle-4{
-        top: 5574px;
-    }
-    .dark-green-circle-5{
-        top: 5891px;
-    }
-    .dark-green-circle-6{
-        top: 5876px;
-    }
-    .dark-green-circle-7{
-        top: 5853px;
     }
 }
 
