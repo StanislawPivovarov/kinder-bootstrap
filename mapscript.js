@@ -1,4 +1,6 @@
-var myMap
+var myMap;
+
+ymaps.ready(init);
 
 function init () {
     // Создание экземпляра карты и его привязка к контейнеру с
