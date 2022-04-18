@@ -1133,8 +1133,20 @@ font-size: 20px;
     position: relative;
     padding-bottom: 70px;
 }
+.carousel{
+    position: relative;
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .woman{
-    padding-left: 50px;
+    width: 60%;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 .right{
     padding-left: 50px;
