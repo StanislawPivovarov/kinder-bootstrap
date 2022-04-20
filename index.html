@@ -1,985 +1,962 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/grid.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
-    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=9440f975-6e8c-4e36-9e6f-2dcdfb5b50bf" type="text/javascript"></script>
-    <script src="mapscript.js" type="text/javascript"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script src="/scarousel.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="slick/slick.css">
-    <link rel="stylesheet" href="/slick/slick-theme.css">
-    <title>Детский сад</title>
-</head>
-<body>
-    <div class="background">
-        <img class="houses" src="img/1/bg/Слой 135.png" alt="">
-        <div class="white-header"></div>
-        
-        <div class="blue-background"></div>
-            
-
-    </div>
-    <!-- шапка с лого, адресом, номером и кнопкой -->
-    <div class="navbar-wrap">
-        <div class="container header">
-                  <a href="#" class="logo-class"><img src="img/1/logo.png" alt="logo" class=""></a>
-                  <div class="navbar-wrap">
-                          <p class="adress">г. Москва, Ленинский пр-т, д. 114 <br>
-                        <span class="number">+7 (919) 10-200-10</span></p>
-                  </div>
-                  <button href="#" class="request-call">Заказать звонок</button>
-            
-        </div>
-    </div>
-
-    <!-- навинация -->
-    <div class="navigation-container">      
-                <div class="woods">
-                    <img src="./img/1/menu/bg.png" alt="" class="down-1">
-                    <img src="./img/1/menu/bg.png" alt="" class="up-1">
-                    <img src="./img/1/menu/bg.png" alt="" class="down-2">
-                    <img src="./img/1/menu/bg.png" alt="" class="up-2">
-                    <img src="./img/1/menu/bg.png" alt="" class="down-3">
-                </div>
-                <div class="text">
-                    <a href="#" class="main">Главная</a>
-                    <a href="#" class="about">О развивающем <br>центре</a>
-                    <a href="#" class="schedule">Программы <br>и расписания</a>
-                    <a href="#" class="why-we">Почему мы</a>
-                    <a href="#" class="contacts">Контакты</a>
-                </div>
-                
-    </div>
-    <div class="lines">
-        <img class="navbar-line" src="./img/1/menu/line_1.png" alt="line_1">
-    </div>
-    <!-- слоган, форма -->
-    <div class="container-xl slogan">
-        <div class="row">
-            <div class="col">
-                <p class="form-slogan">
-                    хотите, чтобы ваш ребенок стал <br>
-                    ярким, интересным, успешным человеком?
-                </p>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="/grid.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+      <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=9440f975-6e8c-4e36-9e6f-2dcdfb5b50bf" type="text/javascript"></script>
+      <script src="mapscript.js" type="text/javascript"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="slick/slick.min.js"></script>
+      <script src="/scarousel.js" type="text/javascript"></script>
+      <link rel="stylesheet" href="slick/slick.css">
+      <link rel="stylesheet" href="/slick/slick-theme.css">
+      <title>Детский сад</title>
+   </head>
+   <body>
+      <div class="block-1">
+         <div class="background">
+            <img class="houses" src="img/1/bg/Слой 135.png" alt="">
+            <div class="white-header"></div>
+         </div>
+         <div class="navbar-wrap">
+            <div class="container header">
+               <a href="#" class="logo-class"><img src="img/1/logo.png" alt="logo" class=""></a>
+               <div class="navbar-wrap">
+                  <p class="adress">г. Москва, Ленинский пр-т, д. 114 <br>
+                     <span class="number">+7 (919) 10-200-10</span>
+                  </p>
+               </div>
+               <button href="#" class="request-call">Заказать звонок</button>
             </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <input type="text" placeholder="Имя" class="form-name">
+         </div>
+         <div class="navigation-container">
+            <div class="woods">
+               <img src="./img/1/menu/bg.png" alt="" class="down-1">
+               <img src="./img/1/menu/bg.png" alt="" class="up-1">
+               <img src="./img/1/menu/bg.png" alt="" class="down-2">
+               <img src="./img/1/menu/bg.png" alt="" class="up-2">
+               <img src="./img/1/menu/bg.png" alt="" class="down-3">
             </div>
-            <div class="col">
-                <input type="tel" placeholder="Телефон" class="form-phone">
+            <div class="text">
+               <a href="#" class="main">Главная</a>
+               <a href="#" class="about">О развивающем <br>центре</a>
+               <a href="#" class="schedule">Программы <br>и расписания</a>
+               <a href="#" class="why-we">Почему мы</a>
+               <a href="#" class="contacts">Контакты</a>
             </div>
-        </div>         
-        <div class="row row-button">
-            <div class="col-12">
-                <button href="#" class="form-button">Записаться на занятие</button>
+            <div class="lines">
+               <img class="navbar-line" src="./img/1/menu/line_1.png" alt="line_1">
             </div>
-        </div>
-        <img src="img/1/bg/Слой 136.png" alt="baby" class="baby">
-    </div>
-
-
-    <!--разобраться с позиционированием объектов  -->
-    <div class="blue-background"></div>
-
-        <img src="img/2/bg.png" alt="" class="fields">
-    <!-- добавить вспомогательные эллипсы -->
-    </div>
-    <div class="container lichinka">
-    </div>
-    <div class="left-circle"></div>
-    <div class="right-circle"></div>
-    <div class="container second-block">
-        <p class="kids-slogan">Детский центр "Просто дети" - это место, где <br>
-        внимательно и с любовью относятся к каждому ребенку
-        </p>
-        <div class="row rows">
-            <div class="col-9">
-                <div class="row line-1-2">
-                    <div class="col-1"></div>
-                    <div class="col-1">
+         </div>
+         <div class="container-xl slogan">
+            <div class="row">
+               <div class="col">
+                  <p class="form-slogan">
+                     хотите, чтобы ваш ребенок стал <br>
+                     ярким, интересным, успешным человеком?
+                  </p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col">
+                  <input type="text" placeholder="Имя" class="form-name">
+               </div>
+               <div class="col">
+                  <input type="tel" placeholder="Телефон" class="form-phone">
+               </div>
+            </div>
+            <div class="row row-button">
+               <div class="col-12">
+                  <button href="#" class="form-button">Записаться на занятие</button>
+               </div>
+            </div>
+            <img src="img/1/bg/Слой 136.png" alt="baby" class="baby">
+         </div>
+      </div>
+      <div class="block-2">
+         <div class="blue-background"></div>
+         <img src="img/2/bg.png" alt="" class="fields">
+         <div class="container second-block">
+            <p class="kids-slogan">Детский центр "Просто дети" - это место, где <br>
+               внимательно и с любовью относятся к каждому ребенку
+            </p>
+            <div class="row rows">
+               <div class="col-9">
+                  <div class="row line-1-2">
+                     <div class="col-1"></div>
+                     <div class="col-1">
                         <p class="one">1.</p>
-                    </div>
-                    <div class="col-5">
+                     </div>
+                     <div class="col-5">
                         <img src="img/2/water-lilies/waterlily.png" alt="">
                         <img src="img/2/water-lilies/1.png" alt="" class="img-glass">
                         <div class="row">
-                            <div class="col-12">
-                                <p class="description">Интересные <br>
-                                дидактические игрушки <br>
-                                и пособия <br> </p>
-                            </div>
+                           <div class="col-12">
+                              <p class="description">Интересные <br>
+                                 дидактические игрушки <br>
+                                 и пособия <br> 
+                              </p>
+                           </div>
                         </div>
-                    </div>
-                    <div class="col-1">
+                     </div>
+                     <div class="col-1">
                         <p class="two">2.</p>
-                    </div>
-                    <div class="col-3">
+                     </div>
+                     <div class="col-3">
                         <img src="img/2/water-lilies/waterlily.png" alt="">
                         <img src="img/2/water-lilies/2.png" alt="" class="img-camera">
                         <div class="row">
-                            <div class="col-12">
-                                <p class="description">Видеонаблюдение<br></p>
-                            </div>
+                           <div class="col-12">
+                              <p class="description">Видеонаблюдение<br></p>
+                           </div>
                         </div>
-                    </div>
-                </div>
-                
-                <div class="row line-2-2">
-                    <div class="col-1">
+                     </div>
+                  </div>
+                  <div class="row line-2-2">
+                     <div class="col-1">
                         <p class="six">6.</p>
-                    </div>
-                    <div class="col-3">
+                     </div>
+                     <div class="col-3">
                         <img src="img/2/water-lilies/waterlily.png" alt="">
                         <img src="img/2/water-lilies/6.png" alt="" class="img-design">
                         <div class="row">
-                            <div class="col-12">
-                                <p class="description">Современный дизайн<br></p>
-                            </div>
+                           <div class="col-12">
+                              <p class="description">Современный дизайн<br></p>
+                           </div>
                         </div>
-                    </div>
-                    <div class="col-4"></div>
-                    <div class="col-1">
+                     </div>
+                     <div class="col-4"></div>
+                     <div class="col-1">
                         <p class="three">3.</p>
-                    </div>
-                    <div class="col-3">
+                     </div>
+                     <div class="col-3">
                         <img src="img/2/water-lilies/waterlily.png" alt="">
                         <img src="img/2/water-lilies/3.png" alt="" class="img-cert">
                         <div class="row">
-                            <div class="col-12">
-                                <p class="description">Лицензированные <br>
-                                    программы обучения
-                                    </p>
-                            </div>
+                           <div class="col-12">
+                              <p class="description">Лицензированные <br>
+                                 программы обучения
+                              </p>
+                           </div>
                         </div>
-                    </div>
-                </div>
-                    <div class="row line-2-2">
-                        <div class="col-1"></div>
-                        <div class="col-1">
-                            <p class="one">5.</p>
+                     </div>
+                  </div>
+                  <div class="row line-2-2">
+                     <div class="col-1"></div>
+                     <div class="col-1">
+                        <p class="one">5.</p>
+                     </div>
+                     <div class="col-5">
+                        <img src="img/2/water-lilies/waterlily.png" alt="">
+                        <img src="/img/2/water-lilies/5.png" alt="" class="img-books">
+                        <div class="row">
+                           <div class="col-12">
+                              <p class="description">Качественные учебные<br>
+                                 материалы
+                              </p>
+                           </div>
                         </div>
-                        <div class="col-5">
-                            <img src="img/2/water-lilies/waterlily.png" alt="">
-                            <img src="/img/2/water-lilies/5.png" alt="" class="img-books">
-                            <div class="row">
-                                <div class="col-12">
-                                    <p class="description">Качественные учебные<br>
-                                    материалы</p>
-                                </div>
-                            </div>
+                     </div>
+                     <div class="col-1">
+                        <p class="two">4.</p>
+                     </div>
+                     <div class="col-3">
+                        <img src="img/2/water-lilies/waterlily.png" alt="">
+                        <img src="/img/2/water-lilies/4.png" alt="" class="img-head">
+                        <div class="row">
+                           <div class="col-12">
+                              <p class="description">Квалифицированные <br>
+                                 специалисты
+                              </p>
+                           </div>
                         </div>
-                        <div class="col-1">
-                            <p class="two">4.</p>
-                        </div>
-                        <div class="col-3">
-                            <img src="img/2/water-lilies/waterlily.png" alt="">
-                            <img src="/img/2/water-lilies/4.png" alt="" class="img-head">
-                            <div class="row">
-                                <div class="col-12">
-                                    <p class="description">Квалифицированные <br>
-                                    специалисты</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-3">
+                  <div class="row">
+                     <div class="col-12">
+                        <img src="img/2/pic_1.png" alt="" class="cat">
+                     </div>
+                  </div>
+               </div>
             </div>
-                <div class="col-3">
-                    <div class="row">
-                        <div class="col-12">
-                         <img src="img/2/pic_1.png" alt="" class="cat">
-                         
-    
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </div>
-
-
-    <div class="green-bg"></div>
-    <div class="container container-house">
-        <div class="row">
-            <div class="col-12">
-                <img src="img/3/reasons-bg.png" alt="" class="reasons-bg">
-                <p class="reason">C нами ваш ребенок</p>
-            </div>
-        </div>
-    </div>
-        <img class="house" src="./img/3/дом.png" alt="house">
-        <img class="podval" src="./img/3/дом.png" alt="house">
-            
-        <div class="container windows">
+         </div>
+         <div class="green-bg"></div>
+      </div>
+      <div class="block-3">
+         <div class="container container-house">
             <div class="row">
-                <div class="col-6">
-                <img src="img/3/window.png" alt="" class="window-1">
-                <div class="window-bg">
-                    <p class="windows-baby">Малыш</p>
-                    <ul class="windows-baby-ul">
+               <div class="col-12">
+                  <img src="img/3/reasons-bg.png" alt="" class="reasons-bg">
+                  <p class="reason">C нами ваш ребенок</p>
+               </div>
+            </div>
+         </div>
+         <img class="house" src="./img/3/дом.png" alt="house">
+         <img class="podval" src="./img/3/дом.png" alt="house">
+         <div class="container windows">
+            <div class="row">
+               <div class="col-6">
+                  <img src="img/3/window.png" alt="" class="window-1">
+                  <div class="window-bg">
+                     <p class="windows-baby">Малыш</p>
+                     <ul class="windows-baby-ul">
                         <li class="windows-baby-ul-li"> <span>
-                            Получит первый опыт общения <br>
-                            "вне дома"
-                        </span></li>
+                           Получит первый опыт общения <br>
+                           "вне дома"
+                           </span>
+                        </li>
                         <li class="windows-baby-ul-li">Получит возможность <br>
-                            творческого самовыражения <br>
-                            (рисование, лепка, аппликация)</li>
+                           творческого самовыражения <br>
+                           (рисование, лепка, аппликация)
+                        </li>
                         <li class="windows-baby-ul-li">Разовьет речь, память, внимание <br>
-                            и мышление</li>
+                           и мышление
+                        </li>
                         <li class="windows-baby-ul-li">Укрепит мышечный корсет, <br>
-                        станет сильным и здоровым</li>
+                           станет сильным и здоровым
+                        </li>
                         <li class="windows-baby-ul-li">Познакомится с музыкальными <br>
-                            инструментами, разовьет чувство <br>
-                            ритма и слух</li>
-                    </ul>
-                </div>
-                </div>
-                <div class="col-6">
-                </div>
+                           инструментами, разовьет чувство <br>
+                           ритма и слух
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-6">
+               </div>
             </div>
             <div class="row">
-                <div class="col-6">
-                </div>
-                <div class="col-6">
-                    <img src="img/3/window.png" alt="" class="window-1">
-                    <div class="window-bg">
-                        <p class="windows-preschool">Дошкольник</p>
-                    <ul class="windows-baby-ul">
+               <div class="col-6">
+               </div>
+               <div class="col-6">
+                  <img src="img/3/window.png" alt="" class="window-1">
+                  <div class="window-bg">
+                     <p class="windows-preschool">Дошкольник</p>
+                     <ul class="windows-baby-ul">
                         <li class="windows-preschool-ul-li"> <span>
-                            Научится быстро читать и <br>
-                            считать
-                        </span></li>
+                           Научится быстро читать и <br>
+                           считать
+                           </span>
+                        </li>
                         <li class="windows-preschool-ul-li">
-                            Правильно писать, легко <br> запоминать, красиво говорить
+                           Правильно писать, легко <br> запоминать, красиво говорить
                         </li>
                         <li class="windows-preschool-ul-li">Подготовиться к школе, <br>
-                        познакомится с разными <br>
-                        техниками рисования</li>
-                        <li class="windows-preschool-ul-li">Научится конструировать из <br>
-                        Лего, начнет учить английский <br>
-                        язык</li>
-                        <li class="windows-preschool-ul-li">
-                            Улучшит навыки общения с <br>
-                            детьми и взрослыми
+                           познакомится с разными <br>
+                           техниками рисования
                         </li>
-                    </ul>
-                    </div>
-                </div>
+                        <li class="windows-preschool-ul-li">Научится конструировать из <br>
+                           Лего, начнет учить английский <br>
+                           язык
+                        </li>
+                        <li class="windows-preschool-ul-li">
+                           Улучшит навыки общения с <br>
+                           детьми и взрослыми
+                        </li>
+                     </ul>
+                  </div>
+               </div>
             </div>
             <div class="row">
-                <div class="col-6">
-                <img src="img/3/window.png" alt="" class="window-1">
-                <div class="window-bg">
-                    <p class="windows-school">Школьник</p>
-                    <ul class="windows-baby-ul">
+               <div class="col-6">
+                  <img src="img/3/window.png" alt="" class="window-1">
+                  <div class="window-bg">
+                     <p class="windows-school">Школьник</p>
+                     <ul class="windows-baby-ul">
                         <li class="windows-school-ul-li"> Повысит скорость чтения</li>
                         <li class="windows-school-ul-li">Улучшит понимание <br>
-                        прочитанного</li>
+                           прочитанного
+                        </li>
                         <li class="windows-school-ul-li">Научится легко запоминать</li>
                         <li class="windows-school-ul-li">Разовьет навыки грамотного <br>
-                        письма, повысит успеваемость <br>
-                        по всем предметам</li>
+                           письма, повысит успеваемость <br>
+                           по всем предметам
+                        </li>
                         <li class="windows-school-ul-li">Будет ходить в школу с <br>
-                        удовольствием и <br>
-                        самостоятельно выполнять домашние задания</li>
-                    </ul>
-                </div>
-                </div>
-                <div class="col-6">
-                </div>
+                           удовольствием и <br>
+                           самостоятельно выполнять домашние задания
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-6">
+               </div>
             </div>
-        </div>
-        
-    <div class="dark-green-bg">
-        
-        <div class="container block-4">
+         </div>
+      </div>
+      <div class="block-4">
+         <img src="img/4/bg.png" alt="" class="green-bg-circles">
+         <div class="container puppy">
             <div class="row">
-                    <img src="img/4/pic_2.png" alt="" class="dog">
-                <div class="col-6">
-                    <div class="row">
-                        <div class="col-12">
-                            <img src="img/4/license-document.png" alt="" class="sert">
-                            <p class="license">- есть <br>
-                            "Лицензия Министерства образования"</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <img src="img/4/Shape 22.png" alt="" class="fluid">
-                        
-                        <p class="unique">Уникальные авторские <br>
+               <img src="img/4/pic_2.png" alt="" class="dog">
+               <div class="col-6">
+                  <div class="row">
+                     <div class="col-12">
+                        <img src="img/4/license-document.png" alt="" class="sert">
+                        <p class="license">- есть <br>
+                           "Лицензия Министерства образования"
+                        </p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <img src="img/4/Shape 22.png" alt="" class="fluid">
+                     <p class="unique">Уникальные авторские <br>
                         программы занятий <br>
                         для детей любого возраста! <br>
-                        
                         <span class="forwho">
-                            (малыши, дошколята, школьники)
-                        </span></p>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="row">
-                        <img src="img/4/form.png" alt="" class="form-img">
-                        <div class="col">
-                            <input type="text" placeholder="Имя" class="form-name-img">
-                        </div>
-                        <div class="col">
-                            <input type="tel" placeholder="Телефон" class="form-phone-img">
-                        </div>                 
-                    </div>
-                    <div class="row desc-form">
-                        <button href="#" class="form-button-img">Записаться на занятие</button>
-                        <p class="hurry">
-                            Спешите! Количество мест ограничено!
-                        </p>
-                    <div class="row">
+                        (малыши, дошколята, школьники)
+                        </span>
+                     </p>
+                  </div>
+               </div>
+               <div class="col-6">
+                  <div class="row">
+                     <img src="img/4/form.png" alt="" class="form-img">
+                     <div class="col">
+                        <input type="text" placeholder="Имя" class="form-name-img">
+                     </div>
+                     <div class="col">
+                        <input type="tel" placeholder="Телефон" class="form-phone-img">
+                     </div>
+                  </div>
+                  <div class="row desc-form">
+                     <button href="#" class="form-button-img">Записаться на занятие</button>
+                     <p class="hurry">
+                        Спешите! Количество мест ограничено!
+                     </p>
+                     <div class="row">
                         <div class="col-5">
-                            <p class="last">Осталось</p>
+                           <p class="last">Осталось</p>
                         </div>
                         <div class="col-2">
-                            
-                            <img src="img/4/Фігура 41.png" alt="" class="star">
-                            <p class="num">5</p>
+                           <img src="img/4/Фігура 41.png" alt="" class="star">
+                           <p class="num">5</p>
                         </div>
                         <div class="col-3">
-                            <p class="places">мест</p>
+                           <p class="places">мест</p>
                         </div>
-                        
-                    </div>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-
-        </div>
-    </div>
-    <img src="img/4/bg.png" alt="" class="green-bg-circles">
-    
-
-        <img src="img/5/bg.png" alt="" class="groups-bg">
-    <div class="background-groups">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <img src="img/5/text-bg.png" alt="" class="background-groups-name_bg">
-                    <p class="background-groups-name">
+         </div>
+      </div>
+      <div class="block-5">
+         <img src="/img/5/bg.png" alt="" class="background-5">
+         <div class="background-groups">
+            <div class="container">
+               <div class="row">
+                  <div class="col-12">
+                     <img src="img/5/text-bg.png" alt="" class="background-groups-name_bg">
+                     <p class="background-groups-name">
                         Наши группы:
-                    </p>
-                </div>
+                     </p>
+                  </div>
+               </div>
             </div>
-        </div>
-        <img src="img/1/menu/line_1.png" alt="" class="line1">
-        <div class="second-woods">
-            <img src="/img/1/menu/bg.png" alt="" class="second-nav-mid">
-            <img src="/img/1/menu/bg.png" alt="" class="second-nav-high">
-            <img src="/img/1/menu/bg.png" alt="" class="second-nav-mid">
-            <img src="/img/1/menu/bg.png" alt="" class="second-nav-high">
-            <img src="/img/1/menu/bg.png" alt="" class="second-nav-mid">
-            <ul class="group-name">
-                <li><a href="#" class="">Малыши</a></li>
-                <li class="preschool"><a href="#" class="">Дошколята</a></li>
-                <li><a href="#" class="">Школьники</a></li>
-                <li class="detsad"><a href="#" class="">Детский сад</a></li>
-                <li><a href="#" class="">Психолог
-                </a></li>
-            </ul>
-
-        </div>
-        <div class="container first-line">
-           
-            
-            <div class="row second-line">
-                <div class="col-3">
-                    <img src="img/1/menu/bg.png" alt="" class="">
-                    <p class="logoped"><a href="#" class="">Логопед</a></p>
-                </div>
-                <div class="col-3">
-                    <p class="playzone"><a href="#" class="">Игровая зона</a></p>
-                    <img src="img/1/menu/bg.png" alt="" class="third-low">
-                </div>
-                <div class="col-3">
-                    <p class="bdays"><a href="#" class="">Тематические <br>
-                    дни рождения </a>
-                    </p>
-                    <img src="img/1/menu/bg.png" alt="" class="third-low">
-                </div>
-                <div class="col-3">
-                    <img src="img/1/menu/bg.png" alt="" class="">
-                    <p class="workshops"><a href="#" class="">Мастер-классы</a></p>
-                </div>
+            <img src="img/1/menu/line_1.png" alt="" class="line1">
+            <div class="second-woods">
+               <img src="/img/1/menu/bg.png" alt="" class="second-nav-mid">
+               <img src="/img/1/menu/bg.png" alt="" class="second-nav-high">
+               <img src="/img/1/menu/bg.png" alt="" class="second-nav-mid">
+               <img src="/img/1/menu/bg.png" alt="" class="second-nav-high">
+               <img src="/img/1/menu/bg.png" alt="" class="second-nav-mid">
+               <ul class="group-name">
+                  <li><a href="#" class="">Малыши</a></li>
+                  <li class="preschool"><a href="#" class="">Дошколята</a></li>
+                  <li><a href="#" class="">Школьники</a></li>
+                  <li class="detsad"><a href="#" class="">Детский сад</a></li>
+                  <li><a href="#" class="">Психолог
+                     </a>
+                  </li>
+               </ul>
             </div>
+         </div>
+         <div class="block-5-1">
+            <div class="container first-line">
+               <div class="row second-line">
+                  <div class="col-3">
+                     <img src="img/1/menu/bg.png" alt="" class="">
+                     <p class="logoped"><a href="#" class="">Логопед</a></p>
+                  </div>
+                  <div class="col-3">
+                     <p class="playzone"><a href="#" class="">Игровая зона</a></p>
+                     <img src="img/1/menu/bg.png" alt="" class="third-low">
+                  </div>
+                  <div class="col-3">
+                     <p class="bdays"><a href="#" class="">Тематические <br>
+                        дни рождения </a>
+                     </p>
+                     <img src="img/1/menu/bg.png" alt="" class="third-low">
+                  </div>
+                  <div class="col-3">
+                     <img src="img/1/menu/bg.png" alt="" class="">
+                     <p class="workshops"><a href="#" class="">Мастер-классы</a></p>
+                  </div>
+               </div>
+               <div class="container card-cont">
+                  <div class="row">
+                     <img src="img/5/paper_2 копия.png" alt="" class="card">
+                  </div>
+                  <div class="row card-filling">
+                     <div class="col-5">
+                        <p class="card-header">
+                           группы по уходу и <br>
+                           присмотру за детьми
+                        </p>
+                        <p class="card-age">
+                           (Группа от 1 года и старше, не более 12 человек)
+                        </p>
+                        <p class="card-target">
+                           <span class="tcolor">
+                           Цель:
+                           </span>
+                           адаптация к детскому саду, <br>
+                           формирование необходимых умений и <br>
+                           навыков, всестороннее развитие личности <br>
+                           ребенка.
+                        </p>
+                        <p class="card-hours">
+                           <span class="tcolor">
+                           Часы пребывания:
+                           </span>
+                           07.30 до 19.00. 5-ти <br>
+                           разовое питание. Он-лайн <br>
+                           видеонаблюдение.
+                        </p>
+                        <p class="card-exercices">
+                           <span class="tcolor">Занятия:</span>  раннее развитие, творчество, <br>
+                           музыкальное и физкультурное. Прогулки.
+                        </p>
+                     </div>
+                     <div class="col-1 col-leaf">
+                        <img src="img/5/left.png" alt="" class="left-leaf">
+                     </div>
+                     <div class="col-5 col-kids">
+                        <img src="img/5/deti.png" alt="" class="deti">
+                     </div>
+                     <div class="col-1 col-;">
+                        <img src="img/5/right.png" alt="" class="right-leaf">                    
+                     </div>
+                  </div>
+               </div>
             </div>
-            
-
-        <div class="container card-cont">
-                    <div class="row">
-                        <img src="img/5/paper_2 копия.png" alt="" class="card">
-                    </div>
-                    <div class="row card-filling">
-                        <div class="col-5">
-                            <p class="card-header">
-                                группы по уходу и <br>
-                                присмотру за детьми
-                            </p>
-                            <p class="card-age">
-                                (Группа от 1 года и старше, не более 12 человек)
-                            </p>
-                            <p class="card-target">
-                                <span class="tcolor">
-                                    Цель:
-                                </span>
-                                 адаптация к детскому саду, <br>
-                                формирование необходимых умений и <br>
-                                навыков, всестороннее развитие личности <br>
-                                ребенка.
-                            </p>
-                            <p class="card-hours">
-                                <span class="tcolor">
-                                    Часы пребывания:
-                                </span>
-                                 07.30 до 19.00. 5-ти <br>
-                                разовое питание. Он-лайн <br>
-                                видеонаблюдение.
-                            </p>
-                            <p class="card-exercices">
-                                <span class="tcolor">Занятия:</span>  раннее развитие, творчество, <br>
-                                музыкальное и физкультурное. Прогулки.
-                            </p>
-                        </div>
-                        <div class="col-1 col-leaf">
-                            <img src="img/5/left.png" alt="" class="left-leaf">
-                        </div>
-                        <div class="col-5 col-kids">
-                            <img src="img/5/deti.png" alt="" class="deti">
-                        </div>
-                        <div class="col-1 col-;">
-                            <img src="img/5/right.png" alt="" class="right-leaf">                    </div>
-                        </div>
-                </div>
+         </div>
+      </div>
+      </div>
+      <img src="img/6/bg.png" alt="" class="orange-bg">
+      <div class="block-6">
+         <div class="container napravleniya">
+            <div class="row">
+               <div class="col-12">
+                  <p class="napravleniya-header">
+                     Направления:
+                  </p>
+               </div>
             </div>
-                <img src="img/6/bg.png" alt="" class="orange-bg">
-                <div class="block-6">
-                    <div class="container napravleniya">
-                        <div class="row">
-                            <div class="col-12">
-                                <p class="napravleniya-header">
-                                    Направления:
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="napravleniya-gallery-back">
-                                    <img class="napravleniya-gallery-int" src="img/6/white box/intellectual.png" alt="">
-                                    <img class="napravleniya-gallery-hand" src="img/6/white box/tvirchestve.png" alt="">
-                                    <img class="napravleniya-gallery-music" src="img/6/white box/music.png" alt="">
-                                    <img class="napravleniya-gallery-dance" src="img/6/white box/dance.png" alt="">
-                                    <img class="napravleniya-gallery-sand" src="img/6/white box/sand.png" alt="">
-                                    <img class="napravleniya-gallery-theater" src="img/6/white box/theater.png" alt="">
-                                    <img class="napravleniya-gallery-sport" src="img/6/white box/sport.png" alt="">
-                                </div>
-                                <div class="desc-images">
-                                    <p class="int-txt"><a href="#">Интеллектуальная <br> мастерская</a></p>
-                                    <p class="hand-txt"><a href="#">Творческая <br> мастерская</a></p>
-                                    <p class="music-txt"><a href="#">Музыкальная <br> мастерская</a></p>
-                                    <p class="dance-txt"><a href="#">Танцевальная <br> мастерская</a></p>
-                                    <p class="sand-txt"><a href="#">Песочная <br> мастерская</a></p>
-                                    <p class="theater-txt"><a href="#">Театральная <br> мастерская</a></p>
-                                    <p class="sport-txt"><a href="#">Спортивная <br> мастерская</a></p>
-                                </div>
-                            </div>
-                        </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <p class="slogan-second">
-                                        узнайте расписание и запишитесь на пробное занятие
-                                    </p>
-                                <img src="img/6/arrow.png" alt="arrow" class="arrow">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-6">
-                                    <input type="text" placeholder="Имя" class="form-name">
-                                </div>
-                                <div class="col-6">
-                                    <input type="tel" placeholder="Телефон" class="form-phone">
-                                </div>
-                            </div>         
-                            <div class="row row-button">
-                                <div class="col-12">
-                                    <button href="#" class="form-button-second">Записаться на занятие</button>
-                                </div>
-                            </div>
-                        </div>  
-                </div>     
+            <div class="row">
+               <div class="col-12">
+                  <div class="napravleniya-gallery-back">
+                     <img class="napravleniya-gallery-int" src="img/6/white box/intellectual.png" alt="">
+                     <img class="napravleniya-gallery-hand" src="img/6/white box/tvirchestve.png" alt="">
+                     <img class="napravleniya-gallery-music" src="img/6/white box/music.png" alt="">
+                     <img class="napravleniya-gallery-dance" src="img/6/white box/dance.png" alt="">
+                     <img class="napravleniya-gallery-sand" src="img/6/white box/sand.png" alt="">
+                     <img class="napravleniya-gallery-theater" src="img/6/white box/theater.png" alt="">
+                     <img class="napravleniya-gallery-sport" src="img/6/white box/sport.png" alt="">
+                  </div>
+                  <div class="desc-images">
+                     <p class="int-txt"><a href="#">Интеллектуальная <br> мастерская</a></p>
+                     <p class="hand-txt"><a href="#">Творческая <br> мастерская</a></p>
+                     <p class="music-txt"><a href="#">Музыкальная <br> мастерская</a></p>
+                     <p class="dance-txt"><a href="#">Танцевальная <br> мастерская</a></p>
+                     <p class="sand-txt"><a href="#">Песочная <br> мастерская</a></p>
+                     <p class="theater-txt"><a href="#">Театральная <br> мастерская</a></p>
+                     <p class="sport-txt"><a href="#">Спортивная <br> мастерская</a></p>
+                  </div>
+               </div>
             </div>
-            <div class="block-7">
-                <img src="img/6/Група 38.png" alt="" class="stairs">
-                <div class="yellowbg">
-                    <div class="container about-center">
-                        <div class="row">
-                            <div class="col-12">
-                                <p class="about-paragraph">
-                                    О развивающем центре:
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2">
-                                <img src="img/7/fireplace.png" alt="" class="fireplace">
-                            </div>
-                            <div class="col-3">
-                                <p class="about-fireplace">Современный дизайн</p>
-                            </div>
-                            <div class="col-2">
-                                <img src="img/7/human.png" alt="" class="person">
-                            </div>
-                            <div class="col-3">
-                                <p class="about-human">Квалифицированные <br> специалисты</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2">
-                                <img src="img/7/security.png" alt="" class="camera">
-                            </div>
-                            <div class="col-3">
-                                <p class="about-security">
-                                    Видеонаблюдение
-                                </p>
-                            </div>
-                            <div class="col-2">
-                                <img src="img/7/book.png" alt="" class="books">
-                            </div>
-                            <div class="col-3">
-                                <p class="about-book">
-                                    Качественные учебные <br> материалы
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2">
-                                <img src="img/7/license.png" alt="" class="lic">
-                            </div>
-                            <div class="col-3">
-                                <p class="about-license">Лицензированные <br> программы обучения</p>
-                            </div>
-                            <div class="col-2">
-                                <img src="img/7/sand.png" alt="" class="sand">
-                            </div>
-                            <div class="col-3">
-                                <p class="about-sand">
-                                    Интересные дидактические
-                                    <br> игрушки и пособия
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-                <img src="img/8/bg.png" alt="" class="background-8">
-                  
-                </div>
-                    <div class="container advantages">
-                        <div class="row">
-                            <div class="col-8">
-                                <p class="equipment">
-                                    Оборудованные помещения:
-                                </p>
-                            </div>
-                            <div class="col-4">
-                                <p class="comfort">
-                                    Для удобства клиентов:
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-8">
-                                <div class="music-sport">
-                                    <img src="img/8/checked.png" alt="" class="check">
-                                    <p class="music-sport-p">
-                                        музыкально-спортивный зал (высокий уровень шумоизоляции, <br>
-                                        спортивный линолеум, зеркала, минисцена, профессиональное  <br>
-                                        вокально-эстрадное оборудование, проектор, специализированное <br>
-                                        качественное спортивное оборудование)
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <img src="img/8/checked.png" alt="" class="check">
-                                    <p class="music-sport-p">
-                                        просторная парковка
-                                    </p>
-                                    <div class="row">
-                                        <div class="col">
-                                            <img src="img/8/checked.png" alt="" class="check">
-                                    <p class="music-sport-p">
-                                        зона для детских колясок
-                                    </p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col">
-                                            <img src="img/8/checked.png" alt="" class="check">
-                                    <p class="music-sport-p">
-                                        зона WF
-                                    </p>
-                                        </div>
-                                    </div>
-                                    
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-8">
-                                <img src="img/8/checked.png" alt="" class="check">
-                                    <p class="music-sport-p">
-                                        рабочие кабинеты (видеонаблюдение, специализированная мебель, <br>
-                                         компьютеры, музыкальные центры, интерактивные доски и панели, <br>
-                                          песочные столы, проекторы)
-                                    </p>
-                            </div>
-                            <div class="col-4">
-                                <div class="row">
-                                    <div class="col">
-                                        <img src="img/8/checked.png" alt="" class="check">
-                                    <p class="music-sport-p">
-                                        игровая бесплатная детская зона
-                                    </p>
-                                    </div>
-                                    
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <img src="img/8/checked.png" alt="" class="check">
-                                <p class="music-sport-p">
-                                    комфортабельная зона ожидания
-                                </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-8">
-                                <img src="img/8/checked.png" alt="" class="check">
-                                <p class="music-sport-p">
-                                    коридоры (телевизоры, удобная мебель)
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-8">
-                                <img src="img/8/checked.png" alt="" class="check">
-                                <p class="music-sport-p">
-                                    санитарные комнаты (детские и взрослые туалеты, душевые кабины, <br>
-                                     раздевалки)
-                                </p>
-                            </div>
-                        </div>
-                        </div>
-                </div>
-                <img src="img/9/bg копия.png" alt="" class="clouds-bg">
-                <div class="container recommendation">
-                    <div class="row">
-                        <div class="col-12">
-                            <p class="friends-recom">
-                                Почему нас рекомендуют своим знакомым и друзьям?
-                            </p>
-                            <div class="row">
-                                <div class="col-6">
-                                    <img src="img/9/trophy (1).png" alt="" class="trophy">
-                                    <div class="row">
-                                        <div class="col">
-                                            <p class="plank-name">
-                                                Ощутимый результат
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <p class="plank-text">
-                                            Каждый ученик нашего центра гарантированно ставит свой
-                                            личный рекорд – учится красиво говорить, писать, читать,
-                                            общаться в коллективе и пр. Не только родитель, но и сам
-                                            ребенок чувствует положительный результат от занятий, и
-                                             начинает заниматься с еще большим удовольствием.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <img src="img/9/parasailing.png" alt="" class="parasailing">
-                                    <div class="row">
-                                        <div class="col">
-                                            <p class="plank-name">
-                                            Позитивный настрой
-                                            </p>                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <p class="plank-text">
-                                                Детям нравится по-домашнему уютная и дружественная
-                                                атмосфера нашего центра, а потому они ходят к нам с
-                                                удовольствием! С каждым занятием Ваш ребенок будет
-                                                узнавать что-то новое, а учебный процесс превратится в
-                                                захватывающее приключение.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            <div class="row">
-                                <div class="col-6">
-                                    <img src="img/9/educator (1).png" alt="" class="parasailing">
-                                    <div class="row">
-                                        <div class="col">
-                                            <p class="plank-name">
-                                            Опытные педагоги
-                                            </p>                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <p class="plank-text">
-                                                Развитием Вашего ребенка будут заниматься настоящие
-                                                профессионалы, которые любят детей и свою работу, а также
-                                                постоянно повышают квалификацию. Каждый педагог - яркая
-                                                личность и профессионал своего дела. Перед тем, как начать
-                                                работать в центре, сотрудники проходят серьезный конкурс, а
-                                                затем специальное обучение.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <img src="img/9/diploma.png" alt="" class="diploma">
-                                    <div class="row">
-                                        <div class="col">
-                                            <p class="plank-name">
-                                            Лицензия Министерства образования
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <p class="plank-text">
-                                                Гарантирует высокое качество обучения и создание
-                                                необходимых условий для проведения занятий с Вашим
-                                                ребенком - наличие методических пособий, учебных
-                                                программ,чистоту, дезинфекцию, правильное освещение,
-                                                санитарные книжки и дипломы у сотрудников и т.д.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-6">
-                                    <img src="img/9/bookshelf.png" alt="" class="bookshelf">
-                                    <div class="row">
-                                        <div class="col">
-                                            <p class="plank-name">
-                                            Эффективные программы обучения
-                                            </p>                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <p class="plank-text">
-                                                Ваш ребенок будет обучаться по уникальным программам,
-                                                разработанным методистами и педагогами центра. Четкий
-                                                поурочный план занятий обеспечивает гарантированный
-                                                результат.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <img src="img/9/projector.png" alt="" class="projector">
-                                    <div class="row">
-                                        <div class="col">
-                                            <p class="plank-name">
-                                            Богатая методическая база <br>
-                                            и современное оборудование
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <p class="plank-text">
-                                                Предоставим Вашему ребенку все необходимые современные
-                                                пособия для обучения. Наши классы оборудованы проекторами
-                                                и удобной детской мебелью, бактерицидными рециркуляторами
-                                                для обеззараживания воздуха
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-6">
-                                    <img src="img/9/paper-plane (2).png" alt="" class="paperplane">
-                                    <div class="row">
-                                        <div class="col">
-                                            <p class="plank-name">
-                                            Мы всегда в контакте с родителями
-                                            </p>                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <p class="plank-text">
-                                                Мы всегда в контакте с родителями и помогаем им <br>
-                                                в вопросах воспитания и развития детей
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <img src="img/9/pic_5.png" alt="" class="cat-9">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <img src="img/10/bg.png" alt="bg" class="bg-10">
-                <div class="container block-10">
-                    <div class="row">
-                        <div class="col-12">
-                            <img src="img/10/text-bg.png" alt="" class="txt-bg">
-                            <p class="collective">Наш коллектив</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="block-10-img">
-                                <!-- <img src="img/10/leaf-left.png" alt="" class="left">
-                                <img src="img/10/woman.png" alt="" class="woman">
-                                <img src="img/10/woman.png" alt="" class="woman">
-                                <img src="img/10/woman.png" alt="" class="woman">
-                                <img src="img/10/leaf-right.png" alt="" class="right"> -->
-                                <div class="carousel">
-                                    <div>
-                                        <img src="img/10/woman.png" alt="" class="woman">
-                                    </div>
-                                    <div>
-                                        <img src="img/10/woman.png" alt="" class="woman">
-                                    </div>
-                                    <div>
-                                        <img src="img/10/woman.png" alt="" class="woman">
-                                    </div>
-                                    <div>
-                                        <img src="img/10/woman.png" alt="" class="woman">
-                                    </div>
-                                    <div>
-                                        <img src="img/10/woman.png" alt="" class="woman">
-                                    </div>
-                                    <div>
-                                        <img src="img/10/woman.png" alt="" class="woman">
-                                    </div>
-                                </div>
-                            </div>
-                            
-                    </div>
-                </div>
+            <div class="row">
+               <div class="col-12">
+                  <p class="slogan-second">
+                     узнайте расписание и запишитесь на пробное занятие
+                  </p>
+                  <img src="img/6/arrow.png" alt="arrow" class="arrow">
+               </div>
             </div>
-            <img src="img/11/bg.png" alt="bg" class="bg-11">
-            <div class="container block-11">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="gallery-bg">
-                            <p class="gallery">Галерея</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="player">
-                            <iframe width="493" height="308" src="https://www.youtube.com/embed/q38Pkx9ecGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-12">
-                        <img src="img/11/photos.png" alt="" class="gallery-collage">
-                    </div>
-                </div>
-                
+            <div class="row">
+               <div class="col-6">
+                  <input type="text" placeholder="Имя" class="form-name">
+               </div>
+               <div class="col-6">
+                  <input type="tel" placeholder="Телефон" class="form-phone">
+               </div>
             </div>
-            
-            <img src="img/12/bg.png" alt="" class="bg-12">
-
-            <div class="container block-12">
-                <div class="row">
-                    <div class="col-4">
-                        <img src="img/12/pic_8.png" alt="" class="cat-12">
-                        
-                    </div>
-                    <div class="col-5">
-                        <div class="form-12">
-                            <p class="article-12">
-                                Давайте вместе делать жизнь <br>
-                                наших детей яркой, счастливой, <br>
-                                наполненной любовью и <br>
-                                безграничными возможностями! 
-                            </p>
-                            <input type="text" placeholder="Имя" class="name-12"> <br>
-                            <input type="text" placeholder="Телефон*" class="mobile-12"> <br>
-
-                            <button href="#" class="call-12">Записаться на занятие</button>
+            <div class="row row-button">
+               <div class="col-12">
+                  <button href="#" class="form-button-second">Записаться на занятие</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <div class="block-7">
+         <img src="img/6/Група 38.png" alt="" class="stairs">
+         <div class="yellowbg">
+            <div class="container about-center">
+               <div class="row">
+                  <div class="col-12">
+                     <p class="about-paragraph">
+                        О развивающем центре:
+                     </p>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-2">
+                     <img src="img/7/fireplace.png" alt="" class="fireplace">
+                  </div>
+                  <div class="col-3">
+                     <p class="about-fireplace">Современный дизайн</p>
+                  </div>
+                  <div class="col-2">
+                     <img src="img/7/human.png" alt="" class="person">
+                  </div>
+                  <div class="col-3">
+                     <p class="about-human">Квалифицированные <br> специалисты</p>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-2">
+                     <img src="img/7/security.png" alt="" class="camera">
+                  </div>
+                  <div class="col-3">
+                     <p class="about-security">
+                        Видеонаблюдение
+                     </p>
+                  </div>
+                  <div class="col-2">
+                     <img src="img/7/book.png" alt="" class="books">
+                  </div>
+                  <div class="col-3">
+                     <p class="about-book">
+                        Качественные учебные <br> материалы
+                     </p>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-2">
+                     <img src="img/7/license.png" alt="" class="lic">
+                  </div>
+                  <div class="col-3">
+                     <p class="about-license">Лицензированные <br> программы обучения</p>
+                  </div>
+                  <div class="col-2">
+                     <img src="img/7/sand.png" alt="" class="sand">
+                  </div>
+                  <div class="col-3">
+                     <p class="about-sand">
+                        Интересные дидактические
+                        <br> игрушки и пособия
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="block-8">
+         <img src="img/8/bg.png" alt="" class="background-8">
+         <div class="container advantages">
+            <div class="row">
+               <div class="col-8">
+                  <p class="equipment">
+                     Оборудованные помещения:
+                  </p>
+               </div>
+               <div class="col-4">
+                  <p class="comfort">
+                     Для удобства клиентов:
+                  </p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-8">
+                  <div class="music-sport">
+                     <img src="img/8/checked.png" alt="" class="check">
+                     <p class="music-sport-p">
+                        музыкально-спортивный зал (высокий уровень шумоизоляции, <br>
+                        спортивный линолеум, зеркала, минисцена, профессиональное  <br>
+                        вокально-эстрадное оборудование, проектор, специализированное <br>
+                        качественное спортивное оборудование)
+                     </p>
+                  </div>
+               </div>
+               <div class="col-4">
+                  <img src="img/8/checked.png" alt="" class="check">
+                  <p class="music-sport-p">
+                     просторная парковка
+                  </p>
+                  <div class="row">
+                     <div class="col">
+                        <img src="img/8/checked.png" alt="" class="check">
+                        <p class="music-sport-p">
+                           зона для детских колясок
+                        </p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col">
+                        <img src="img/8/checked.png" alt="" class="check">
+                        <p class="music-sport-p">
+                           зона WF
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-8">
+                  <img src="img/8/checked.png" alt="" class="check">
+                  <p class="music-sport-p">
+                     рабочие кабинеты (видеонаблюдение, специализированная мебель, <br>
+                     компьютеры, музыкальные центры, интерактивные доски и панели, <br>
+                     песочные столы, проекторы)
+                  </p>
+               </div>
+               <div class="col-4">
+                  <div class="row">
+                     <div class="col">
+                        <img src="img/8/checked.png" alt="" class="check">
+                        <p class="music-sport-p">
+                           игровая бесплатная детская зона
+                        </p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col">
+                        <img src="img/8/checked.png" alt="" class="check">
+                        <p class="music-sport-p">
+                           комфортабельная зона ожидания
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-8">
+                  <img src="img/8/checked.png" alt="" class="check">
+                  <p class="music-sport-p">
+                     коридоры (телевизоры, удобная мебель)
+                  </p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-8">
+                  <img src="img/8/checked.png" alt="" class="check">
+                  <p class="music-sport-p">
+                     санитарные комнаты (детские и взрослые туалеты, душевые кабины, <br>
+                     раздевалки)
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <img src="img/9/bg копия.png" alt="" class="clouds-bg">
+      <div class="block-9">
+         <div class="container recommendation">
+            <div class="row">
+               <div class="col-12">
+                  <p class="friends-recom">
+                     Почему нас рекомендуют своим знакомым и друзьям?
+                  </p>
+                  <div class="row">
+                     <div class="col-6">
+                        <img src="img/9/trophy (1).png" alt="" class="trophy">
+                        <div class="row">
+                           <div class="col">
+                              <p class="plank-name">
+                                 Ощутимый результат
+                              </p>
+                           </div>
                         </div>
-                    </div>
-                    <div class="col-3">
-                        <img src="img/12/pic_7.png" alt="" class="dog-12">
-                    </div>
-                </div>
-                
-            </div>
-            <img src="img/13/blue.png" alt="" class="blue-separator">
-            <p class="our-adress">Наш адрес</p>
-            <div id="map" class="map"></div>
-            <img src="img/13/pointer.png" alt="" class="pointer">
-            <div class="container map-pointer">
-                <div class="adress-white">
-                    <p class="adress-header">
-                        Адрес центра:
-                    </p>
-                    <p class="adress-adress">
-                        ул. Новая, д.58 <br>
-                        Режим работы: ежедневно <br>
-                        с 10:00 до 18:00
-                    </p>
-
-                </div>
-            </div>
-            <div class="bg-14">
-                <div class="container footer-cont">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="footer-wrap">
-                            <a href="" class="logo-footer"><img src="img/1/logo.png" alt="" class="logotype-footer"></a>
-
-                                <p class="questions">
-                                    Остались вопросы? <br>
-                                    Звоните, с радостью на них ответим! <br>
-                                    <span class="number-footer">+7 (919) 10-200-10</span>
-                                </p>
-                                <button href="#" class="footer-btn">Заказать звонок</button>
-                            </div>
+                        <div class="row">
+                           <p class="plank-text">
+                              Каждый ученик нашего центра гарантированно ставит свой
+                              личный рекорд – учится красиво говорить, писать, читать,
+                              общаться в коллективе и пр. Не только родитель, но и сам
+                              ребенок чувствует положительный результат от занятий, и
+                              начинает заниматься с еще большим удовольствием.
+                           </p>
                         </div>
-                    </div>
-                </div>
+                     </div>
+                     <div class="col-6">
+                        <img src="img/9/parasailing.png" alt="" class="parasailing">
+                        <div class="row">
+                           <div class="col">
+                              <p class="plank-name">
+                                 Позитивный настрой
+                              </p>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-12">
+                              <p class="plank-text">
+                                 Детям нравится по-домашнему уютная и дружественная
+                                 атмосфера нашего центра, а потому они ходят к нам с
+                                 удовольствием! С каждым занятием Ваш ребенок будет
+                                 узнавать что-то новое, а учебный процесс превратится в
+                                 захватывающее приключение.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-6">
+                        <img src="img/9/educator (1).png" alt="" class="parasailing">
+                        <div class="row">
+                           <div class="col">
+                              <p class="plank-name">
+                                 Опытные педагоги
+                              </p>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-12">
+                              <p class="plank-text">
+                                 Развитием Вашего ребенка будут заниматься настоящие
+                                 профессионалы, которые любят детей и свою работу, а также
+                                 постоянно повышают квалификацию. Каждый педагог - яркая
+                                 личность и профессионал своего дела. Перед тем, как начать
+                                 работать в центре, сотрудники проходят серьезный конкурс, а
+                                 затем специальное обучение.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-6">
+                        <img src="img/9/diploma.png" alt="" class="diploma">
+                        <div class="row">
+                           <div class="col">
+                              <p class="plank-name">
+                                 Лицензия Министерства образования
+                              </p>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-12">
+                              <p class="plank-text">
+                                 Гарантирует высокое качество обучения и создание
+                                 необходимых условий для проведения занятий с Вашим
+                                 ребенком - наличие методических пособий, учебных
+                                 программ,чистоту, дезинфекцию, правильное освещение,
+                                 санитарные книжки и дипломы у сотрудников и т.д.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-6">
+                        <img src="img/9/bookshelf.png" alt="" class="bookshelf">
+                        <div class="row">
+                           <div class="col">
+                              <p class="plank-name">
+                                 Эффективные программы обучения
+                              </p>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-12">
+                              <p class="plank-text">
+                                 Ваш ребенок будет обучаться по уникальным программам,
+                                 разработанным методистами и педагогами центра. Четкий
+                                 поурочный план занятий обеспечивает гарантированный
+                                 результат.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-6">
+                        <img src="img/9/projector.png" alt="" class="projector">
+                        <div class="row">
+                           <div class="col">
+                              <p class="plank-name">
+                                 Богатая методическая база <br>
+                                 и современное оборудование
+                              </p>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-12">
+                              <p class="plank-text">
+                                 Предоставим Вашему ребенку все необходимые современные
+                                 пособия для обучения. Наши классы оборудованы проекторами
+                                 и удобной детской мебелью, бактерицидными рециркуляторами
+                                 для обеззараживания воздуха
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-6">
+                        <img src="img/9/paper-plane (2).png" alt="" class="paperplane">
+                        <div class="row">
+                           <div class="col">
+                              <p class="plank-name">
+                                 Мы всегда в контакте с родителями
+                              </p>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-12">
+                              <p class="plank-text">
+                                 Мы всегда в контакте с родителями и помогаем им <br>
+                                 в вопросах воспитания и развития детей
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-6">
+                        <img src="img/9/pic_5.png" alt="" class="cat-9">
+                     </div>
+                  </div>
+               </div>
             </div>
-                
-            
-</body>
+         </div>
+      </div>
+      <img src="img/10/bg.png" alt="bg" class="bg-10">
+      <div class="container block-10">
+         <div class="row">
+            <div class="col-12">
+               <img src="img/10/text-bg.png" alt="" class="txt-bg">
+               <p class="collective">Наш коллектив</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-12">
+               <div class="block-10-img">
+                  <!-- <img src="img/10/leaf-left.png" alt="" class="left">
+                     <img src="img/10/woman.png" alt="" class="woman">
+                     <img src="img/10/woman.png" alt="" class="woman">
+                     <img src="img/10/woman.png" alt="" class="woman">
+                     <img src="img/10/leaf-right.png" alt="" class="right"> -->
+                  <div class="carousel">
+                     <div>
+                        <img src="img/10/woman.png" alt="" class="woman">
+                     </div>
+                     <div>
+                        <img src="img/10/woman.png" alt="" class="woman">
+                     </div>
+                     <div>
+                        <img src="img/10/woman.png" alt="" class="woman">
+                     </div>
+                     <div>
+                        <img src="img/10/woman.png" alt="" class="woman">
+                     </div>
+                     <div>
+                        <img src="img/10/woman.png" alt="" class="woman">
+                     </div>
+                     <div>
+                        <img src="img/10/woman.png" alt="" class="woman">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <img src="img/11/bg.png" alt="bg" class="bg-11">
+      <div class="container block-11">
+         <div class="row">
+            <div class="col-12">
+               <div class="gallery-bg">
+                  <p class="gallery">Галерея</p>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-12">
+               <div class="player">
+                  <iframe width="493" height="308" src="https://www.youtube.com/embed/q38Pkx9ecGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-12">
+               <img src="img/11/photos.png" alt="" class="gallery-collage">
+            </div>
+         </div>
+      </div>
+      <img src="img/12/bg.png" alt="" class="bg-12">
+      <div class="container block-12">
+         <div class="row">
+            <div class="col-4">
+               <img src="img/12/pic_8.png" alt="" class="cat-12">
+            </div>
+            <div class="col-5">
+               <div class="form-12">
+                  <p class="article-12">
+                     Давайте вместе делать жизнь <br>
+                     наших детей яркой, счастливой, <br>
+                     наполненной любовью и <br>
+                     безграничными возможностями! 
+                  </p>
+                  <input type="text" placeholder="Имя" class="name-12"> <br>
+                  <input type="text" placeholder="Телефон*" class="mobile-12"> <br>
+                  <button href="#" class="call-12">Записаться на занятие</button>
+               </div>
+            </div>
+            <div class="col-3">
+               <img src="img/12/pic_7.png" alt="" class="dog-12">
+            </div>
+         </div>
+      </div>
+      <img src="img/13/blue.png" alt="" class="blue-separator">
+      <p class="our-adress">Наш адрес</p>
+      <div id="map" class="map"></div>
+      <div class="container map-pointer">
+         <div class="adress-white">
+            <p class="adress-header">
+               Адрес центра:
+            </p>
+            <p class="adress-adress">
+               ул. Новая, д.58 <br>
+               Режим работы: ежедневно <br>
+               с 10:00 до 18:00
+            </p>
+         </div>
+      </div>
+      <div class="bg-14">
+         <div class="container footer-cont">
+            <div class="row">
+               <div class="col-12">
+                  <div class="footer-wrap">
+                     <a href="" class="logo-footer"><img src="img/1/logo.png" alt="" class="logotype-footer"></a>
+                     <p class="questions">
+                        Остались вопросы? <br>
+                        Звоните, с радостью на них ответим! <br>
+                        <span class="number-footer">+7 (919) 10-200-10</span>
+                     </p>
+                     <button href="#" class="footer-btn">Заказать звонок</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
 </html>
