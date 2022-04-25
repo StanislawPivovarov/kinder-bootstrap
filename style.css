@@ -72,6 +72,15 @@ body {
 	position: relative;
 	height: 688px;
 }
+.block-7{
+	position: relative;
+}
+.block-8{
+	position: relative;
+}
+.block-9{
+	position: relative;
+}
 .block-10{
 	position: relative;
 	height: 550px;
@@ -86,9 +95,11 @@ body {
 }
 .block-14{
 	position: relative;
+	top: -10PX;
 }
 .background-5 {
 	position: absolute;
+	top: 0;
 	width: 100%;
 }
 
@@ -736,7 +747,7 @@ body {
 }
 
 .green-bg-circles {
-	top: 0px;
+	top: 0;
 	width: 100%;
 	height: auto;
 	position: absolute;
@@ -1063,7 +1074,7 @@ body {
 	position: absolute;
 	width: 100%;
 	height: auto;
-	top: 5369px;
+	top: -123px;
 }
 
 .napravleniya {
@@ -1220,7 +1231,7 @@ body {
 	width: 100%;
 	height: auto;
 	position: absolute;
-	top: 7019px;
+	top: 0px;
 	z-index: 99;
 }
 
@@ -1255,7 +1266,7 @@ body {
 
 .clouds-bg {
 	position: absolute;
-	top: 7548px;
+	top: -139px;
 	width: 100%;
 	height: auto;
 }
@@ -1315,7 +1326,7 @@ body {
 	width: 100%;
 	height: auto;
 	position: absolute;
-	top: 9408px;
+	top: 0px;
 }
 
 .txt-bg {
@@ -1372,7 +1383,7 @@ body {
 
 .bg-11 {
 	width: 100%;
-    top: 9932px;
+    top: -24px;
 	height: auto;
 	position: absolute;
 }
@@ -1416,13 +1427,12 @@ body {
 	width: 100%;
 	height: auto;
 	position: absolute;
-	top: 10773px;
+	top: -58px;
 }
 
 .block-12 {
 	height: 580px;
 	position: relative;
-	left: -50px;
 }
 .block-12-cont{
 	position: relative;
@@ -1520,7 +1530,7 @@ body {
 	width: 100%;
 	height: auto;
 	position: absolute;
-	top: auto;
+	top: -7px;
 	z-index: 10;
 }
 
@@ -1540,7 +1550,7 @@ body {
 	width: 100%;
 	height: 537px;
 	position: absolute;
-	top: 109px;
+	top: 100px;
 }
 
 .pointer {
@@ -1657,18 +1667,24 @@ input {
 }
 
 @media(width: 3840px) {
+	.block-1{
+		height: 2279px;
+	}
+	.block-3{
+		top: -1359px;
+	}
 	.blue-background {
-		top: 1115px;
+		top: -22px;
 		height: 2500px;
 	}
 	.fields {
 		position: relative;
 		width: 100%;
-		top: 1024px;
+		top: -190px;
 	}
 	.second-block{
 		position: relative;
-		top: -3450px;
+		top: -4654px;
 	}
 	.slogan {
 		top: 700px;
@@ -1680,9 +1696,6 @@ input {
 	.triangle-right {
 		top: 2450px;
 		height: 1556px;
-	}
-	.fields {
-		top: 1024px;
 	}
 	.green-bg {
 		top: 4000px;
@@ -1708,13 +1721,18 @@ input {
 	.background-5{
 		position: absolute;
 		z-index: 9;
-    top: 6759px;
+		top: 6356px;
+	}
+	.block-5{
+		top: -3981px;
+		z-index: 1000;
 	}
 	.green-bg-circles{
-		top: -6116px;
+		top: 5153px;
+		clip-path: inset(0 0 15% 0);
 	}
 	.block-4{
-		top: 3000px;
+		top: -4085px;;
 	}
 	.puppy{
 		top: -200px;
