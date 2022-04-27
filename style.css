@@ -1,3 +1,5 @@
+
+
 @font-face {
 	font-family: 'Fregat';
 	src: local('Fregat'), url('/font/fregat.ttf') format('woff2'), url('/font/fregat.ttf') format('woff'), url('/font/fregat.ttf') format('truetype');
@@ -67,10 +69,73 @@ body {
 .block-5{
 	position: relative;
 	height: 970px;
+	background-image: url('./img/5/1.png');
+	background-repeat: repeat;
 }
 .block-6{
+	background-color: #ef7b00;
 	position: relative;
 	height: 688px;
+}
+.circle-1{
+	position: absolute;
+	margin-left: 0px;
+	display: block;
+	height: 300px;
+	width: 300px;
+	border-radius: 100%;
+	background-color:#ef7b00;
+	/* border: 1px solid black; */
+}
+.circle-2{
+	position: absolute;
+	height: 300px;
+	margin-left: 200px;
+	display: block;
+	width: 300px;
+	border-radius: 100%;
+	background-color:#ef7b00;
+	/* border: 1px solid black; */
+	top: 15px;
+}
+.circle-3{
+	position: absolute;
+	height: 300px;
+	margin-left: 400px;
+	display: block;
+	width: 300px;
+	border-radius: 100%;
+	background-color:#ef7b00;
+	/* border: 1px solid black; */
+	top: 30px;
+}
+.circle-4{
+	position: absolute;
+	height: 300px;
+	margin-left: 600px;
+	display: block;
+	width: 300px;
+	border-radius: 100%;
+	background-color:#ef7b00;
+	/* border: 1px solid black; */
+	top: 45px;
+}
+.circle-5{
+	position: absolute;
+	display: block;
+	margin-left: 800px;
+	height: 300px;
+	width: 300px;
+	border-radius: 100%;
+	background-color:#ef7b00;
+	/* border: 1px solid black; */
+	top: 60px;
+}
+.circles{
+	left: -110px;
+	top: -100px;
+	position: absolute;
+	display: flex;
 }
 .block-7{
 	position: relative;
@@ -164,7 +229,8 @@ body {
 	margin-left: 350px;
 }
 
-.number {
+.number a{
+	text-decoration: none;
 	font-size: 18px;
 	position: relative;
 	color: rgb(0, 93, 33);
@@ -939,6 +1005,7 @@ body {
 	height: auto;
 	position: relative;
 	display: block;
+	top: -1px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -1012,6 +1079,7 @@ body {
 }
 
 .second-line a {
+	position: absolute;
 	text-decoration: none;
 	color: #461402;
 }
@@ -1067,6 +1135,7 @@ body {
 .card-filling {
 	position: absolute;
 	left: 50px;
+	width: 100%;
 	top: 30px;
 }
 
@@ -1191,7 +1260,7 @@ body {
 
 .stairs {
 	position: absolute;
-	z-index: 100;
+	z-index: 999;
 	top: -252px;
 	padding-left: 150px;
 }
@@ -1362,6 +1431,17 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+.carousel-2{
+	position: relative;
+	width: 70%;
+	height: auto;
+	display: block;
+	padding-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 10;
+	margin-left: 20px;
 }
 
 .woman {
@@ -1666,12 +1746,15 @@ input {
 	cursor: pointer;
 }
 
-@media(width: 3840px) {
+@media(min-width: 3840px) {
 	.block-1{
 		height: 2279px;
 	}
 	.block-3{
 		top: -1359px;
+	}
+	.block-6{
+    	top: -3974px;
 	}
 	.blue-background {
 		top: -22px;
@@ -1715,21 +1798,22 @@ input {
 		top: -3200px;
 	}
 	.orange-bg{
-		z-index: 100;
-		top: 6920px;
+		z-index: 1000;
+		top: -346px;
+		clip-path: inset(0 0 37% 0);
 	}
 	.background-5{
 		position: absolute;
-		z-index: 9;
-		top: 6356px;
+		top: -360px;
+		clip-path: inset(0 0 40% 0);
 	}
 	.block-5{
 		top: -3981px;
 		z-index: 1000;
 	}
 	.green-bg-circles{
-		top: 5153px;
-		clip-path: inset(0 0 15% 0);
+		top: -453px;
+		clip-path: inset(0 0 40% 0);
 	}
 	.block-4{
 		top: -4085px;;
@@ -1758,6 +1842,55 @@ input {
 		top: 6297px;
 	}
 	.background-groups {
-		top: -800px;
+		top: -278px;
+	}
+	.line1{
+		width: 40%;
+		height: auto;
+		position: absolute;
+		margin: auto;
+		left: 0;
+		right: 0;
+	}
+	.second-woods{
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 65%;
+	}
+	.block-7{
+		top: -3969px;
+	}
+	.stairs{
+		padding-left: 918px;
+	}
+	.block-9{
+		top: -3745px;
+		z-index: 100;
+	}
+	.block-8{
+		top: -3976px;
+	}
+	.clouds-bg{
+		clip-path: inset(0 0 50% 0);
+	}
+	.block-10{
+		top: -3939px;
+	}
+	.block-11{
+		top: -4033px;
+	}
+	.block-12{
+		top: -3971px;
+	}
+	.block-13{
+		top: -3750px;
+	}
+	.blue-separator{
+		top: -90px;
+	}
+	.second-line{
+		padding-top: 95px;
 	}
 }
