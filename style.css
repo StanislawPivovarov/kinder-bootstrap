@@ -48,28 +48,35 @@ body {
 }
 
 @import "./node_modules/bootstrap-4-grid/css/grid.css";
+
+
 .block-1 {
 	position: relative;
 	width: 100%;
-	height: 1134px;
+	height: auto;
 }
 
 .block-2 {
 	position: relative;
+	background-color: #207d9f;
+	height: 960px;
 }
 
 .block-3 {
 	position: relative;
+	background-color: #207d9f;
 }
 
 .block-4 {
 	position: relative;
-	height: 650px
+	height: 650px;
+	background-color: #005d22;
+	z-index: 100;
 }
 .block-5{
 	position: relative;
 	height: 970px;
-	background-image: url('./img/5/1.png');
+	background-image: url('./img/5/bg.png');
 	background-repeat: repeat;
 }
 .block-6{
@@ -140,19 +147,29 @@ body {
 .block-7{
 	position: relative;
 }
+
 .block-8{
 	position: relative;
+	background-image: url("img/8/bg.png");
+	background-repeat: repeat;
+	height: 505px;
 }
 .block-9{
 	position: relative;
+	background-image: url("img/9/bg копия.png");
+	background-repeat: repeat;
 }
 .block-10{
 	position: relative;
 	height: 550px;
+	background-image: url("img/10/bg.png");
+	background-repeat: repeat;
 }
 .block-11{
 	position: relative;
 	height: 880px;
+	background-image: url("img/11/bg.png");
+	background-repeat: repeat;
 }
 .block-13{
 	position: relative;
@@ -166,11 +183,6 @@ body {
 	position: absolute;
 	top: 0;
 	width: 100%;
-}
-
-.block-9 {
-	top: 200px;
-    position: relative;
 }
 
 .sky {
@@ -192,9 +204,10 @@ body {
 
 .houses {
 	position: absolute;
+	display: block;
+	height: auto;
 	width: 100%;
 	z-index: 3;
-	;
 }
 
 .navbar-wrap {
@@ -412,7 +425,6 @@ body {
 .slogan {
 	position: relative;
 	padding-top: 100px;
-	height: auto;
 }
 
 .fields {
@@ -716,7 +728,6 @@ body {
 
 .container-house {
 	position: relative;
-	padding-top: 250px;
 	z-index: 100;
 }
 
@@ -1342,7 +1353,6 @@ body {
 
 .recommendation {
 	position: relative;
-	top: -100px;
 }
 
 .friends-recom {
@@ -1745,152 +1755,36 @@ input {
 .detsad a {
 	cursor: pointer;
 }
-
-@media(min-width: 3840px) {
+@media (min-width: 1920px) {
+	
+}
+/* @media(min-width: 2114px){
 	.block-1{
-		height: 2279px;
-	}
-	.block-3{
-		top: -1359px;
-	}
-	.block-6{
-    	top: -3974px;
-	}
-	.blue-background {
-		top: -22px;
-		height: 2500px;
-	}
-	.fields {
-		position: relative;
-		width: 100%;
-		top: -190px;
-	}
-	.second-block{
-		position: relative;
-		top: -4654px;
-	}
-	.slogan {
-		top: 700px;
-	}
-	.triangle-left {
-		top: 2750px;
-		height: 1300px;
-	}
-	.triangle-right {
-		top: 2450px;
-		height: 1556px;
-	}
-	.green-bg {
-		top: 4000px;
-	}
-	.circle-hills-1 {
-		top: 3100px;
-		left: 1500px;
-	}
-	.cirlce-hills-2 {
-		top: 3200px;
-		left: 1000px;
-	}
-	.lichinka {
-		top: 1000px;
-	}
-	.container-house {
-		top: -3200px;
-	}
-	.orange-bg{
-		z-index: 1000;
-		top: -346px;
-		clip-path: inset(0 0 37% 0);
-	}
-	.background-5{
-		position: absolute;
-		top: -360px;
-		clip-path: inset(0 0 40% 0);
-	}
-	.block-5{
-		top: -3981px;
-		z-index: 1000;
-	}
-	.green-bg-circles{
-		top: -453px;
-		clip-path: inset(0 0 40% 0);
-	}
-	.block-4{
-		top: -4085px;;
-	}
-	.puppy{
-		top: -200px;
-	}
-	.house {
-		top: -3022px;
-		clip-path: inset(0 0 20% 0);
-		width: 80%;
-		margin: auto;
-		left: 0;
-		right: 0;
-	}
-	.podval {
-		display: none;
-	}
-	.windows {
-		top: -3063px;
-	}
-	.dark-green-bg {
-		top: -815px;
-	}
-	.groups-bg {
-		top: 6297px;
-	}
-	.background-groups {
-		top: -278px;
-	}
-	.line1{
-		width: 40%;
-		height: auto;
-		position: absolute;
-		margin: auto;
-		left: 0;
-		right: 0;
-	}
-	.second-woods{
-		position: relative;
-		margin-left: auto;
-		margin-right: auto;
-		display: block;
-		width: 65%;
-	}
-	.block-7{
-		top: -3969px;
-	}
-	.stairs{
-		padding-left: 918px;
-	}
-	.block-9{
-		top: -3745px;
-		z-index: 100;
-	}
-	.block-8{
-		top: -3976px;
-	}
-	.clouds-bg{
-		clip-path: inset(0 0 50% 0);
-	}
-	.block-10{
-		top: -3939px;
-	}
-	.block-11{
-		top: -4033px;
-	}
-	.block-12{
-		top: -3971px;
-	}
-	.block-13{
-		top: -3750px;
-	}
-	.blue-separator{
-		top: -90px;
-	}
-	.second-line{
-		padding-top: 95px;
+		height: 1202px;
 	}
 }
+@media(min-width: 2379px){
+	.block-1{
+		height: 1371px;
+	}
+}
+@media(min-width: 2537px){
+	.block-1{
+		height: 1467px;
+	}
+}
+@media(min-width: 2855px){
+	.block-1{
+		height: 1654px;
+	}
+}
+@media(min-width: 3806px){
+	.block-1{
+		height: 2208px;
+	}
+}
+@media(min-width: 5760px){
+	.block-1{
+		height: 3337px;
+	}
+} */
